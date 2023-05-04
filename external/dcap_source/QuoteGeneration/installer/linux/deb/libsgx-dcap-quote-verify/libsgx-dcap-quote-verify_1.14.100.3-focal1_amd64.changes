@@ -1,0 +1,42 @@
+Format: 1.8
+Date: Thu, 16 Jul 2020 14:57:32 +0800
+Source: libsgx-dcap-quote-verify
+Binary: libsgx-dcap-quote-verify libsgx-dcap-quote-verify-dev
+Architecture: source amd64
+Version: 1.14.100.3-focal1
+Distribution: unstable
+Urgency: low
+Maintainer: <hongyan.jiang@intel.com>
+Changed-By: Hongyan Jiang <hongyan.jiang@intel.com>
+Description:
+ libsgx-dcap-quote-verify - Intel(R) Software Guard Extensions Data Center Attestation Primit
+ libsgx-dcap-quote-verify-dev - Intel(R) Software Guard Extensions Data Center Attestation Primit
+Changes:
+ libsgx-dcap-quote-verify (1.14.100.3-focal1) unstable; urgency=low
+ .
+   * 1.0 Gold release
+   * Provide the Quote Verification Library
+Checksums-Sha1:
+ 1f266553390c53d0bb1231bbfc946af17a6fcf6d 1140 libsgx-dcap-quote-verify_1.14.100.3-focal1.dsc
+ fdc6a52cba1e47f80d7edba0c7057449ead77162 1087361 libsgx-dcap-quote-verify_1.14.100.3.orig.tar.gz
+ 309ce8f5646687e97c4a1f12049b22f8edbda89b 2284 libsgx-dcap-quote-verify_1.14.100.3-focal1.debian.tar.xz
+ 128a5c4f99ef44460272c4627be27bb42c903c87 80348 libsgx-dcap-quote-verify-dbgsym_1.14.100.3-focal1_amd64.ddeb
+ 9e82de70cb3aa27961132d56325d3a9cb98cdf2f 6280 libsgx-dcap-quote-verify-dev_1.14.100.3-focal1_amd64.deb
+ 2f4768cbb3cfa14abb760d45a2361acf26107ead 6548 libsgx-dcap-quote-verify_1.14.100.3-focal1_amd64.buildinfo
+ ab2aa2be1809d93f8d58bb30095c2202a17d1db6 783540 libsgx-dcap-quote-verify_1.14.100.3-focal1_amd64.deb
+Checksums-Sha256:
+ a85133a6a3c9a38c869d820530a6ef5f1921b23815944179c822af71b96b146d 1140 libsgx-dcap-quote-verify_1.14.100.3-focal1.dsc
+ 328c14282166a278e323faddfadb2ac4f277894662f70b3986a49cb6b9157d81 1087361 libsgx-dcap-quote-verify_1.14.100.3.orig.tar.gz
+ 3d9c1d921383668307fb6cfc53d87d22b5efc732398be49ec4b15d2756d655a0 2284 libsgx-dcap-quote-verify_1.14.100.3-focal1.debian.tar.xz
+ eaff45e1babab0e33d39cbd90ab04d9309058ebacc180d1f6a0832391e0b3eb4 80348 libsgx-dcap-quote-verify-dbgsym_1.14.100.3-focal1_amd64.ddeb
+ c9d3bedf765b078491e263999d85601e4fabc7255b55ea773e3cb703821560bd 6280 libsgx-dcap-quote-verify-dev_1.14.100.3-focal1_amd64.deb
+ d815c50a246537d1de01906b111289cac76cca064c43701f156c572e4b266159 6548 libsgx-dcap-quote-verify_1.14.100.3-focal1_amd64.buildinfo
+ c534f40426d5f69fbeee9e9f4750f4e4633889a99d33ba29761153ba097e564c 783540 libsgx-dcap-quote-verify_1.14.100.3-focal1_amd64.deb
+Files:
+ 7c7ae3c1399395f98bbdfe7eb9261dac 1140 libs optional libsgx-dcap-quote-verify_1.14.100.3-focal1.dsc
+ 7655d5a65048bafb23e35f68250ecb54 1087361 libs optional libsgx-dcap-quote-verify_1.14.100.3.orig.tar.gz
+ c2c0f8f9d0ce872514ee35b9f845591c 2284 libs optional libsgx-dcap-quote-verify_1.14.100.3-focal1.debian.tar.xz
+ 8a8374194155217d97e344366177bbf0 80348 debug optional libsgx-dcap-quote-verify-dbgsym_1.14.100.3-focal1_amd64.ddeb
+ 3251347a3555f6f80865a4b5eef2cb07 6280 devel optional libsgx-dcap-quote-verify-dev_1.14.100.3-focal1_amd64.deb
+ cf82869e167168221c6e602613178876 6548 libs optional libsgx-dcap-quote-verify_1.14.100.3-focal1_amd64.buildinfo
+ 27d1b945fc70ccdfd30c2449226bbb9a 783540 libs optional libsgx-dcap-quote-verify_1.14.100.3-focal1_amd64.deb

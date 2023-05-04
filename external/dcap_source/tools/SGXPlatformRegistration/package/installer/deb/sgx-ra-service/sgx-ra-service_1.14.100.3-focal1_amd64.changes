@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 10 Feb 2020 15:19:41 +0800
+Source: sgx-ra-service
+Binary: sgx-ra-service
+Architecture: source amd64
+Version: 1.14.100.3-focal1
+Distribution: unstable
+Urgency: low
+Maintainer: Junli Sun <junli.sun@intel.com>
+Changed-By: Junli Sun <junli.sun@intel.com>
+Description:
+ sgx-ra-service - Intel(R) Software Guard Extensions Multi-Package Registration Age
+Changes:
+ sgx-ra-service (1.14.100.3-focal1) unstable; urgency=low
+ .
+   * Initial release
+Checksums-Sha1:
+ c3f271c860c2cfddbcb196b4402be159681d6f96 960 sgx-ra-service_1.14.100.3-focal1.dsc
+ 9f22378219472c0fcb9ab609badd8e83037ebb19 36669 sgx-ra-service_1.14.100.3.orig.tar.gz
+ 77d1e7aa2bc91af346c548ab12b72220f5399248 3716 sgx-ra-service_1.14.100.3-focal1.debian.tar.xz
+ bdb8c92f16a45a3669222364ec5325d57de07752 6432 sgx-ra-service-dbgsym_1.14.100.3-focal1_amd64.ddeb
+ 75c5a29feb8075baacd5b1dd74956d260934d756 6072 sgx-ra-service_1.14.100.3-focal1_amd64.buildinfo
+ 9819e310a11fa756e8da6fb68888bba7bfeac594 23500 sgx-ra-service_1.14.100.3-focal1_amd64.deb
+Checksums-Sha256:
+ 0c0928a524f9426628955a43bcc29720bfe58fe4eba112c648452472e73ac3e3 960 sgx-ra-service_1.14.100.3-focal1.dsc
+ b0241a3e6f5f76fde123d29fcf68927aa658dee7d22e7930caea604d5c616649 36669 sgx-ra-service_1.14.100.3.orig.tar.gz
+ e783163db77a4c0ef489e368ec2a6212ff8c57b87b1ccd69f316fa4f8f2aa2a7 3716 sgx-ra-service_1.14.100.3-focal1.debian.tar.xz
+ b2a683d330fe3abd0030c3ee22d652752c65c1536e3d69a9af2a3dc66cb02238 6432 sgx-ra-service-dbgsym_1.14.100.3-focal1_amd64.ddeb
+ 0a6a1a8e290eadf4de017c7c35e454ae5df48d8108ce52776a0dd5551410afad 6072 sgx-ra-service_1.14.100.3-focal1_amd64.buildinfo
+ b2a18cf0d7fd704593a3e30911578283988f2bf58a16be8abd4e8eb7dc97a7a2 23500 sgx-ra-service_1.14.100.3-focal1_amd64.deb
+Files:
+ 8f2ec89d9267289cbd9ff69499139774 960 misc optional sgx-ra-service_1.14.100.3-focal1.dsc
+ 9648e1de1c0a107f6322616803cb5700 36669 misc optional sgx-ra-service_1.14.100.3.orig.tar.gz
+ dbff2007e38e2f0c318f9f98452116d6 3716 misc optional sgx-ra-service_1.14.100.3-focal1.debian.tar.xz
+ f8153d42724c68be85d47a1b2e9445df 6432 debug optional sgx-ra-service-dbgsym_1.14.100.3-focal1_amd64.ddeb
+ 8d9a4fa63538c837f9f721aa976503d0 6072 misc optional sgx-ra-service_1.14.100.3-focal1_amd64.buildinfo
+ 05740dd745c94f6e39783ff2ab20164b 23500 misc optional sgx-ra-service_1.14.100.3-focal1_amd64.deb

@@ -1,0 +1,45 @@
+Format: 1.8
+Date: Thu, 10 Oct 2019 15:19:41 +0800
+Source: libsgx-dcap-ql
+Binary: libsgx-dcap-ql libsgx-dcap-ql-dev
+Architecture: source amd64
+Version: 1.14.100.3-focal1
+Distribution: unstable
+Urgency: low
+Maintainer: <xiangquan.liu@intel.com>
+Changed-By: Xiangquan Liu <xiangquan.liu@intel.com>
+Description:
+ libsgx-dcap-ql - Intel(R) Software Guard Extensions Data Center Attestation Primit
+ libsgx-dcap-ql-dev - Intel(R) Software Guard Extensions Data Center Attestation Primit
+Changes:
+ libsgx-dcap-ql (1.14.100.3-focal1) unstable; urgency=low
+ .
+   * 1.0 Gold release
+   * Provide the Quote Verification Library and sample project. Please note this library is only provided in source code in the Intel® SGX DCAP project repo
+   * Provide the Quote Generation Library and sample project
+   * Provide the sample project for Platform Provider Library
+   * Separate the Quote Verification Library into a standalone installer
+Checksums-Sha1:
+ 10e0b1e9fc552bbcf9bd996bc699e916adafe7d9 1024 libsgx-dcap-ql_1.14.100.3-focal1.dsc
+ bf6772e06da47ee69d548638242f3977a62ec5b1 26430 libsgx-dcap-ql_1.14.100.3.orig.tar.gz
+ e69b616fc3d852ad45309507028211abe42bd922 2468 libsgx-dcap-ql_1.14.100.3-focal1.debian.tar.xz
+ 1444470b732ea31be1d1a032200e237d4bf40904 20384 libsgx-dcap-ql-dbgsym_1.14.100.3-focal1_amd64.ddeb
+ ccd71e181e6c0f78b8b0be4d29f6de9a6f72f0cc 3476 libsgx-dcap-ql-dev_1.14.100.3-focal1_amd64.deb
+ e4455ed6c10886d4b59ce6e3dbed1ecd83cffdd3 6392 libsgx-dcap-ql_1.14.100.3-focal1_amd64.buildinfo
+ 27a4bdcc493b5996da398ec568f97cc1c9bbb711 6172 libsgx-dcap-ql_1.14.100.3-focal1_amd64.deb
+Checksums-Sha256:
+ 9a2c0c3883c7277263b08b5be14d25c09f61639b97dc3549f377728d7ee9f640 1024 libsgx-dcap-ql_1.14.100.3-focal1.dsc
+ 2f3fb54ac1447bde68a3eac784674e6d23333c5245fa72c25630f0abcabdda55 26430 libsgx-dcap-ql_1.14.100.3.orig.tar.gz
+ a28801c2bd1ccb75fcf292a54295a5af5e0d2fe67eb79fe615aba45810898457 2468 libsgx-dcap-ql_1.14.100.3-focal1.debian.tar.xz
+ f3aa2dad444fabf1fd489096cb9ecbe71b4a5c7b08383883fcf6ce8d2020cbd9 20384 libsgx-dcap-ql-dbgsym_1.14.100.3-focal1_amd64.ddeb
+ 419f1c1bccaa92047a03af188ac789f869232476086d3cf15e7d8e0f9aea7f27 3476 libsgx-dcap-ql-dev_1.14.100.3-focal1_amd64.deb
+ 483586bac2d0868cd2c99e32f74d0564921740ff7efd7a3d436a3ca3db9814f4 6392 libsgx-dcap-ql_1.14.100.3-focal1_amd64.buildinfo
+ 92eea287bf41273b16a9d2ae28223ee04d5744e0351a9987f6da932493772fab 6172 libsgx-dcap-ql_1.14.100.3-focal1_amd64.deb
+Files:
+ 779f4dfbdbec61678cbe3266dbb9585c 1024 libs optional libsgx-dcap-ql_1.14.100.3-focal1.dsc
+ 9e46c1e5adc82448a1838ae501e8b5ea 26430 libs optional libsgx-dcap-ql_1.14.100.3.orig.tar.gz
+ a66e2959ac50b6fdbd40648522a38291 2468 libs optional libsgx-dcap-ql_1.14.100.3-focal1.debian.tar.xz
+ 99d2ee6a2f849ebc368f2db80e31b13f 20384 debug optional libsgx-dcap-ql-dbgsym_1.14.100.3-focal1_amd64.ddeb
+ c847eeed5b783f02003fb755b0739145 3476 devel optional libsgx-dcap-ql-dev_1.14.100.3-focal1_amd64.deb
+ d6ac160ec6f212a770bf1fca9f1d17e8 6392 libs optional libsgx-dcap-ql_1.14.100.3-focal1_amd64.buildinfo
+ 92885d68f9a76f59536dbd8ffcc81659 6172 libs optional libsgx-dcap-ql_1.14.100.3-focal1_amd64.deb

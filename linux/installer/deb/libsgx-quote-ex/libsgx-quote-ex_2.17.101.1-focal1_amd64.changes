@@ -1,0 +1,41 @@
+Format: 1.8
+Date: Mon, 29 Jul 2019 15:23:51 +0800
+Source: libsgx-quote-ex
+Binary: libsgx-quote-ex libsgx-quote-ex-dev
+Architecture: source amd64
+Version: 2.17.101.1-focal1
+Distribution: unstable
+Urgency: low
+Maintainer: <xiangquan.liu@intel.com>
+Changed-By: Xiangquan Liu <xiangquan.liu@intel.com>
+Description:
+ libsgx-quote-ex - Intel(R) Software Guard Extensions Unified Quote Service
+ libsgx-quote-ex-dev - Intel(R) Software Guard Extensions Unified Quote Service for Deve
+Changes:
+ libsgx-quote-ex (2.17.101.1-focal1) unstable; urgency=low
+ .
+   * Initial Release
+Checksums-Sha1:
+ 8a3d26aa7b1b3e1ed293ba69d9c1427c5bf73087 1016 libsgx-quote-ex_2.17.101.1-focal1.dsc
+ 73854f38cae25170bdacfc78380be9ab63541795 129303 libsgx-quote-ex_2.17.101.1.orig.tar.gz
+ 984883170511e1aa9324e038739ab3cc92397894 20560 libsgx-quote-ex_2.17.101.1-focal1.debian.tar.xz
+ dcc95e7b01de0173ac2f88f2d10a367337f11d6d 22672 libsgx-quote-ex-dbgsym_2.17.101.1-focal1_amd64.ddeb
+ a234948e7757081c0f7e3fe311127c81f09c1b43 24336 libsgx-quote-ex-dev_2.17.101.1-focal1_amd64.deb
+ 5998563a16e55a53611a2f04c18c57389d7feccd 6412 libsgx-quote-ex_2.17.101.1-focal1_amd64.buildinfo
+ fe98ac0101fed112bfef81d5194a33b8e0a4f119 74368 libsgx-quote-ex_2.17.101.1-focal1_amd64.deb
+Checksums-Sha256:
+ c91839f8af35d7f8ed16058d747cc3f44e9e03404db55b81baf0c6eb4d1e55c2 1016 libsgx-quote-ex_2.17.101.1-focal1.dsc
+ 201970280470fe468778e27a68b6951ea0608b1c5fbcb4d44c8089cfe2bbb7db 129303 libsgx-quote-ex_2.17.101.1.orig.tar.gz
+ 24e678b8c0e5354c77b6fc9955adda0395c8e43405debe3e7fd63a81846904f8 20560 libsgx-quote-ex_2.17.101.1-focal1.debian.tar.xz
+ e8a3bbf5246fcafa50819ca0b6b20f6581d2c89cda4863393e1eed86a378c187 22672 libsgx-quote-ex-dbgsym_2.17.101.1-focal1_amd64.ddeb
+ ce7cd4fdd8898c76c9e5688db5387b22e8ae07b507f832b1927b32fd86afe5b3 24336 libsgx-quote-ex-dev_2.17.101.1-focal1_amd64.deb
+ deec6ec89e772bdc20b56791eb36e276e96b8fa2ee69ca85c739edbb9e929802 6412 libsgx-quote-ex_2.17.101.1-focal1_amd64.buildinfo
+ 3658fca826b62c54e0dd5088ceeb232af64dde14c18f0f33569adb424d367d59 74368 libsgx-quote-ex_2.17.101.1-focal1_amd64.deb
+Files:
+ fc975e54b3aa3c3ac355aee3067e0d72 1016 libs optional libsgx-quote-ex_2.17.101.1-focal1.dsc
+ 4ee4a06df7f72ad1a3d55d6815162fce 129303 libs optional libsgx-quote-ex_2.17.101.1.orig.tar.gz
+ 35af79532acdae84e68c6a164a2ed1e5 20560 libs optional libsgx-quote-ex_2.17.101.1-focal1.debian.tar.xz
+ 7892b67e5791e4cc259761dd50d0baec 22672 debug optional libsgx-quote-ex-dbgsym_2.17.101.1-focal1_amd64.ddeb
+ c5bf662995b2c687a813625e34eeb785 24336 devel optional libsgx-quote-ex-dev_2.17.101.1-focal1_amd64.deb
+ 9819bad749fd62796d1d909251b5d561 6412 libs optional libsgx-quote-ex_2.17.101.1-focal1_amd64.buildinfo
+ 3bccabba7510aa46717ac28bf4385856 74368 libs optional libsgx-quote-ex_2.17.101.1-focal1_amd64.deb

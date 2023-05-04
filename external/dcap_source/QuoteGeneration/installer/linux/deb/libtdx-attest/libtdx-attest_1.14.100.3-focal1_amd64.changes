@@ -1,0 +1,41 @@
+Format: 1.8
+Date: Wed, 20 Jan 2021 15:19:41 +0800
+Source: libtdx-attest
+Binary: libtdx-attest libtdx-attest-dev
+Architecture: source amd64
+Version: 1.14.100.3-focal1
+Distribution: unstable
+Urgency: low
+Maintainer: <feng.qiu@intel.com>
+Changed-By: Feng Qiu <feng.qiu@intel.com>
+Description:
+ libtdx-attest - Intel(R) Trust Domain Extensions Attestation library
+ libtdx-attest-dev - Intel(R) Trust Domain Extensions Attestation For Developers
+Changes:
+ libtdx-attest (1.14.100.3-focal1) unstable; urgency=low
+ .
+   * Initial revision
+Checksums-Sha1:
+ dab21c845247810389738129504f15eb0b3a9c64 1008 libtdx-attest_1.14.100.3-focal1.dsc
+ 664f86422d88aee82b9676de497d2622279fba6e 25374 libtdx-attest_1.14.100.3.orig.tar.gz
+ 4159766771dc908749ec5a3b1d0c634c8083b303 2216 libtdx-attest_1.14.100.3-focal1.debian.tar.xz
+ d0d3a5ffe844e78cb5f2f1272c5ffe33083b210a 15948 libtdx-attest-dbgsym_1.14.100.3-focal1_amd64.ddeb
+ f9ddafb48a15fb3e51733a1a97b3d831b5400548 6492 libtdx-attest-dev_1.14.100.3-focal1_amd64.deb
+ 74051fe18c22e28094b624eb9f1b78d2077bee0e 6377 libtdx-attest_1.14.100.3-focal1_amd64.buildinfo
+ c8aa56a551bebeb301ac683ae0ed29eade72e412 7084 libtdx-attest_1.14.100.3-focal1_amd64.deb
+Checksums-Sha256:
+ 85b08877e87ffb246a2984118a554aafa074cb1b69f901cb952b05c8610eefad 1008 libtdx-attest_1.14.100.3-focal1.dsc
+ 9757fd9cff2fe66af2b17426224ca3a14e0285cd092be6139c1675f9713f1893 25374 libtdx-attest_1.14.100.3.orig.tar.gz
+ ce4dce7ece33641bfeb651cd9a5c095cf02a771cd750902990d57e8b283ce6e2 2216 libtdx-attest_1.14.100.3-focal1.debian.tar.xz
+ a62a8cb848f95ccf12fd0c52047c358a60e9c12db9548812463e9545290c3efd 15948 libtdx-attest-dbgsym_1.14.100.3-focal1_amd64.ddeb
+ 3d64bbf12f2de0b364a842a2a3a66de8710b4b001bad8a7f6abd210d0f57fc60 6492 libtdx-attest-dev_1.14.100.3-focal1_amd64.deb
+ eeb28011975d74bc56d04f1a2a8409b68c978e9f1d81eadf6b381c8b18bc51c5 6377 libtdx-attest_1.14.100.3-focal1_amd64.buildinfo
+ 22d4108f7b3897479e2bc69e50496ff0335379aa10ae78043e0d5be35b6dada2 7084 libtdx-attest_1.14.100.3-focal1_amd64.deb
+Files:
+ fa567c91900d9e9d238000a76e154277 1008 libs optional libtdx-attest_1.14.100.3-focal1.dsc
+ 71985d2580b334098f335bc70ae9e9ed 25374 libs optional libtdx-attest_1.14.100.3.orig.tar.gz
+ 0a82cfc7c05412a6dcb781a1499f52f5 2216 libs optional libtdx-attest_1.14.100.3-focal1.debian.tar.xz
+ f18bc20c5a12c7c43565cac3d77dee8f 15948 debug optional libtdx-attest-dbgsym_1.14.100.3-focal1_amd64.ddeb
+ 196ad1c9aaa07212420978659c01c594 6492 devel optional libtdx-attest-dev_1.14.100.3-focal1_amd64.deb
+ 660743a07bf8e3f186c297cab9dbe048 6377 libs optional libtdx-attest_1.14.100.3-focal1_amd64.buildinfo
+ 647731afe8d073212a98065e30e673ae 7084 libs optional libtdx-attest_1.14.100.3-focal1_amd64.deb

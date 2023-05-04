@@ -1,0 +1,215 @@
+Format: 1.0
+Source: sgx-aesm-service
+Binary: sgx-aesm-service libsgx-aesm-launch-plugin libsgx-ae-le libsgx-aesm-epid-plugin libsgx-ae-epid libsgx-aesm-quote-ex-plugin libsgx-aesm-ecdsa-plugin libsgx-aesm-pce-plugin libsgx-ae-pce
+Architecture: amd64 source
+Version: 2.17.101.1-focal1
+Checksums-Md5:
+ e5d074674349287eb430f94431abfdb7 1552 sgx-aesm-service_2.17.101.1-focal1.dsc
+ 329fd2939a69f3abbf9575f6a760dd23 399540 libsgx-ae-epid_2.17.101.1-focal1_amd64.deb
+ 7abec7507c396685e32f8ab85fb68739 161428 libsgx-ae-le_2.17.101.1-focal1_amd64.deb
+ e58097787cd2802000c73501d8286e92 221256 libsgx-ae-pce_2.17.101.1-focal1_amd64.deb
+ 9547e6af4086101493c022604e5fc470 5272 libsgx-aesm-ecdsa-plugin-dbgsym_2.17.101.1-focal1_amd64.ddeb
+ 0cb576e4c0ea20c9a5833eda3beec6d8 32252 libsgx-aesm-ecdsa-plugin_2.17.101.1-focal1_amd64.deb
+ b7b8dbbdf911e236362039968ddf65a0 9424 libsgx-aesm-epid-plugin-dbgsym_2.17.101.1-focal1_amd64.ddeb
+ d478cdb2223022773a8b3d3fd0d317f1 54740 libsgx-aesm-epid-plugin_2.17.101.1-focal1_amd64.deb
+ 1bb8ecac49348a93a2841977a719d798 6212 libsgx-aesm-launch-plugin-dbgsym_2.17.101.1-focal1_amd64.ddeb
+ 7c38bd3e32921e5e88383ab3093f743b 38856 libsgx-aesm-launch-plugin_2.17.101.1-focal1_amd64.deb
+ 64c668a54829caf32212c6706c608e24 4600 libsgx-aesm-pce-plugin-dbgsym_2.17.101.1-focal1_amd64.ddeb
+ 67324f6fda5c60003d00d751bf571d3d 29484 libsgx-aesm-pce-plugin_2.17.101.1-focal1_amd64.deb
+ 9845f54e63160a12c9a8389918c358ac 5828 libsgx-aesm-quote-ex-plugin-dbgsym_2.17.101.1-focal1_amd64.ddeb
+ 72d129a59152ec4decafb3b93fa720a4 40624 libsgx-aesm-quote-ex-plugin_2.17.101.1-focal1_amd64.deb
+ ee7b6ff0cc537e7a2f50c9b59b75f38d 8717776 sgx-aesm-service-dbgsym_2.17.101.1-focal1_amd64.ddeb
+ a0750b06df450dba7c9b4a31f88ca33e 541600 sgx-aesm-service_2.17.101.1-focal1_amd64.deb
+Checksums-Sha1:
+ d543b6709198a654cf977e4c3914107eac28342d 1552 sgx-aesm-service_2.17.101.1-focal1.dsc
+ 123ec464aa52c88ea688bfcc0a16e7d681d7347f 399540 libsgx-ae-epid_2.17.101.1-focal1_amd64.deb
+ 55b89ba6d184d672c31abab6bc7e37d0d60e18bc 161428 libsgx-ae-le_2.17.101.1-focal1_amd64.deb
+ b14c4f0290ca05d313ac36c5178841cfe76cd386 221256 libsgx-ae-pce_2.17.101.1-focal1_amd64.deb
+ 123fd7e405927b165acb379728cdc2652ad0d0ac 5272 libsgx-aesm-ecdsa-plugin-dbgsym_2.17.101.1-focal1_amd64.ddeb
+ 013c0bcf5eaca45491e1432600faeef4d74c477c 32252 libsgx-aesm-ecdsa-plugin_2.17.101.1-focal1_amd64.deb
+ 586b6de595f87a53c0808aa7f476c389b61d2029 9424 libsgx-aesm-epid-plugin-dbgsym_2.17.101.1-focal1_amd64.ddeb
+ f21c8e0d2a248ddbe932f257f81774e263652189 54740 libsgx-aesm-epid-plugin_2.17.101.1-focal1_amd64.deb
+ 64586963284ff8da6e658b4f4c56203afd93847e 6212 libsgx-aesm-launch-plugin-dbgsym_2.17.101.1-focal1_amd64.ddeb
+ 7b452b88e57a2e677d5dcc6ddb8c3360deecdac2 38856 libsgx-aesm-launch-plugin_2.17.101.1-focal1_amd64.deb
+ dd70309a8e6d18c7567029cc75dd5161551a2043 4600 libsgx-aesm-pce-plugin-dbgsym_2.17.101.1-focal1_amd64.ddeb
+ 895cc76555d1480f0faa09a3abe89954b4015c85 29484 libsgx-aesm-pce-plugin_2.17.101.1-focal1_amd64.deb
+ 32741db18d6b9c6f9f4c2daa5ce85b2c93d4fbe0 5828 libsgx-aesm-quote-ex-plugin-dbgsym_2.17.101.1-focal1_amd64.ddeb
+ 4c7cdec4b596d75a94eaa4877789303acc713b03 40624 libsgx-aesm-quote-ex-plugin_2.17.101.1-focal1_amd64.deb
+ 5e9f059a33364fdcb7c707c81b0dae897450d681 8717776 sgx-aesm-service-dbgsym_2.17.101.1-focal1_amd64.ddeb
+ 3590c99c098cb1735ae9fd692d5b6032bf268080 541600 sgx-aesm-service_2.17.101.1-focal1_amd64.deb
+Checksums-Sha256:
+ 8e6635036058a8127a5476720252e74a7b1b7f2513be88c7b1e5a754965fe8a3 1552 sgx-aesm-service_2.17.101.1-focal1.dsc
+ 9c43602c05683523e200486287d5de2fefa4617fc7fbea3f177f6d2107384b85 399540 libsgx-ae-epid_2.17.101.1-focal1_amd64.deb
+ 79bcd8f5cf446422c9eb29c510828b8aec7f1df93098e71f581758d00249bd16 161428 libsgx-ae-le_2.17.101.1-focal1_amd64.deb
+ df31ab1dbc01e2d2462467ec750b36d4321b689a16f8fdd879b445ce6e29f540 221256 libsgx-ae-pce_2.17.101.1-focal1_amd64.deb
+ 8be787abf02b4ec333425e814019cbb630b98040eb1b74a04f5fb59a077e6147 5272 libsgx-aesm-ecdsa-plugin-dbgsym_2.17.101.1-focal1_amd64.ddeb
+ 87d61722ebc287ac4c88c6dd146529eda965c4ba4749d6e0768c77208ab7e2ec 32252 libsgx-aesm-ecdsa-plugin_2.17.101.1-focal1_amd64.deb
+ 551456a2f3cc0a84df6fd55093e6b54779c5c043a5f36389f546af16dfe6d414 9424 libsgx-aesm-epid-plugin-dbgsym_2.17.101.1-focal1_amd64.ddeb
+ 5ce0e6dc3deee85628a886612b37596e1b830ed057c42c21162c6de92ce32569 54740 libsgx-aesm-epid-plugin_2.17.101.1-focal1_amd64.deb
+ f41560b4aeb6c50ee4b453b3df7565ea52b57d417a79403eb44d0b445abc746e 6212 libsgx-aesm-launch-plugin-dbgsym_2.17.101.1-focal1_amd64.ddeb
+ b63f8adb0e420823506bd3a82509e1715a24a917e9b30febcea988cefa619e5d 38856 libsgx-aesm-launch-plugin_2.17.101.1-focal1_amd64.deb
+ 640f8cb44faea066299bd3f4e952b427918e2c8bcfa3569b6b7999381c292054 4600 libsgx-aesm-pce-plugin-dbgsym_2.17.101.1-focal1_amd64.ddeb
+ 9d3b92195c57212950793c99d6022e14d83eadd7c2824659be5d4fc44447d1ee 29484 libsgx-aesm-pce-plugin_2.17.101.1-focal1_amd64.deb
+ 5395764946f037565206a78112d0ca0e19fe0cd8b3c16f8c3c381d77d9f60fea 5828 libsgx-aesm-quote-ex-plugin-dbgsym_2.17.101.1-focal1_amd64.ddeb
+ e624898f8c2f3c35e44bd087b234b2c28a4d6023f3983cb219408c04aeb17c1a 40624 libsgx-aesm-quote-ex-plugin_2.17.101.1-focal1_amd64.deb
+ 3c06a2254523a2cbfa303ad853f6c16010edf18be44a8d890e1281f483a1a3e0 8717776 sgx-aesm-service-dbgsym_2.17.101.1-focal1_amd64.ddeb
+ b207dba6e24a69032e12fdf6c77f5fe48097bc14936f8f51f4b3a50e46dbf092 541600 sgx-aesm-service_2.17.101.1-focal1_amd64.deb
+Build-Origin: Ubuntu
+Build-Architecture: amd64
+Build-Date: Tue, 11 Apr 2023 14:01:01 +0000
+Build-Tainted-By:
+ merged-usr-via-symlinks
+ usr-local-has-includes
+ usr-local-has-libraries
+ usr-local-has-programs
+Installed-Build-Depends:
+ autoconf (= 2.69-11.1),
+ automake (= 1:1.16.1-4ubuntu6),
+ autopoint (= 0.19.8.1-10build1),
+ autotools-dev (= 20180224.1),
+ base-files (= 11ubuntu5.7),
+ base-passwd (= 3.5.47),
+ bash (= 5.0-6ubuntu1.2),
+ binutils (= 2.34-6ubuntu1.4),
+ binutils-common (= 2.34-6ubuntu1.4),
+ binutils-x86-64-linux-gnu (= 2.34-6ubuntu1.4),
+ bsdmainutils (= 11.1.2ubuntu3),
+ bsdutils (= 1:2.34-0.1ubuntu9.3),
+ build-essential (= 12.8ubuntu1.1),
+ bzip2 (= 1.0.8-2),
+ coreutils (= 8.30-3ubuntu2),
+ cpp (= 4:9.3.0-1ubuntu2),
+ cpp-9 (= 9.4.0-1ubuntu1~20.04.1),
+ dash (= 0.5.10.2-6),
+ debconf (= 1.5.73),
+ debhelper (= 12.10ubuntu1),
+ debianutils (= 4.9.1),
+ dh-autoreconf (= 19),
+ dh-strip-nondeterminism (= 1.7.0-1),
+ diffutils (= 1:3.7-3),
+ dpkg (= 1.19.7ubuntu3.2),
+ dpkg-dev (= 1.19.7ubuntu3.2),
+ dwz (= 0.13-5),
+ file (= 1:5.38-4),
+ findutils (= 4.7.0-1ubuntu1),
+ g++ (= 4:9.3.0-1ubuntu2),
+ g++-9 (= 9.4.0-1ubuntu1~20.04.1),
+ gawk (= 1:5.0.1+dfsg-1),
+ gcc (= 4:9.3.0-1ubuntu2),
+ gcc-10-base (= 10.3.0-1ubuntu1~20.04),
+ gcc-9 (= 9.4.0-1ubuntu1~20.04.1),
+ gcc-9-base (= 9.4.0-1ubuntu1~20.04.1),
+ gettext (= 0.19.8.1-10build1),
+ gettext-base (= 0.19.8.1-10build1),
+ grep (= 3.4-1),
+ groff-base (= 1.22.4-4build1),
+ gzip (= 1.10-0ubuntu4.1),
+ hostname (= 3.23),
+ init-system-helpers (= 1.57),
+ intltool-debian (= 0.35.0+20060710.5),
+ libacl1 (= 2.2.53-6),
+ libarchive-zip-perl (= 1.67-2),
+ libasan5 (= 9.4.0-1ubuntu1~20.04.1),
+ libatomic1 (= 10.3.0-1ubuntu1~20.04),
+ libattr1 (= 1:2.4.48-5),
+ libaudit-common (= 1:2.8.5-2ubuntu6),
+ libaudit1 (= 1:2.8.5-2ubuntu6),
+ libbinutils (= 2.34-6ubuntu1.4),
+ libblkid1 (= 2.34-0.1ubuntu9.3),
+ libbsd0 (= 0.10.0-1),
+ libbz2-1.0 (= 1.0.8-2),
+ libc-bin (= 2.31-0ubuntu9.9),
+ libc-dev-bin (= 2.31-0ubuntu9.9),
+ libc6 (= 2.31-0ubuntu9.9),
+ libc6-dev (= 2.31-0ubuntu9.9),
+ libcap-ng0 (= 0.7.9-2.1build1),
+ libcc1-0 (= 10.3.0-1ubuntu1~20.04),
+ libcroco3 (= 0.6.13-1),
+ libcrypt-dev (= 1:4.4.10-10ubuntu4),
+ libcrypt1 (= 1:4.4.10-10ubuntu4),
+ libctf-nobfd0 (= 2.34-6ubuntu1.4),
+ libctf0 (= 2.34-6ubuntu1.4),
+ libdb5.3 (= 5.3.28+dfsg1-0.6ubuntu2),
+ libdebconfclient0 (= 0.251ubuntu1),
+ libdebhelper-perl (= 12.10ubuntu1),
+ libdpkg-perl (= 1.19.7ubuntu3.2),
+ libelf1 (= 0.176-1.1build1),
+ libffi7 (= 3.3-4),
+ libfile-stripnondeterminism-perl (= 1.7.0-1),
+ libgcc-9-dev (= 9.4.0-1ubuntu1~20.04.1),
+ libgcc-s1 (= 10.3.0-1ubuntu1~20.04),
+ libgcrypt20 (= 1.8.5-5ubuntu1.1),
+ libgdbm-compat4 (= 1.18.1-5),
+ libgdbm6 (= 1.18.1-5),
+ libglib2.0-0 (= 2.64.6-1~ubuntu20.04.4),
+ libgmp10 (= 2:6.2.0+dfsg-4ubuntu0.1),
+ libgomp1 (= 10.3.0-1ubuntu1~20.04),
+ libgpg-error0 (= 1.37-1),
+ libicu66 (= 66.1-2ubuntu2.1),
+ libisl22 (= 0.22.1-1),
+ libitm1 (= 10.3.0-1ubuntu1~20.04),
+ liblsan0 (= 10.3.0-1ubuntu1~20.04),
+ liblz4-1 (= 1.9.2-2ubuntu0.20.04.1),
+ liblzma5 (= 5.2.4-1ubuntu1.1),
+ libmagic-mgc (= 1:5.38-4),
+ libmagic1 (= 1:5.38-4),
+ libmount1 (= 2.34-0.1ubuntu9.3),
+ libmpc3 (= 1.1.0-1),
+ libmpfr6 (= 4.0.2-1),
+ libpam-modules (= 1.3.1-5ubuntu4.6),
+ libpam-modules-bin (= 1.3.1-5ubuntu4.6),
+ libpam-runtime (= 1.3.1-5ubuntu4.6),
+ libpam0g (= 1.3.1-5ubuntu4.6),
+ libpcre2-8-0 (= 10.34-7ubuntu0.1),
+ libpcre3 (= 2:8.39-12ubuntu0.1),
+ libperl5.30 (= 5.30.0-9ubuntu0.3),
+ libpipeline1 (= 1.5.2-2build1),
+ libquadmath0 (= 10.3.0-1ubuntu1~20.04),
+ libreadline8 (= 8.0-4),
+ libseccomp2 (= 2.5.1-1ubuntu1~20.04.2),
+ libselinux1 (= 3.0-1build2),
+ libsigsegv2 (= 2.12-2),
+ libsmartcols1 (= 2.34-0.1ubuntu9.3),
+ libstdc++-9-dev (= 9.4.0-1ubuntu1~20.04.1),
+ libstdc++6 (= 10.3.0-1ubuntu1~20.04),
+ libsub-override-perl (= 0.09-2),
+ libsystemd0 (= 245.4-4ubuntu3.20),
+ libtinfo6 (= 6.2-0ubuntu2),
+ libtool (= 2.4.6-14),
+ libtsan0 (= 10.3.0-1ubuntu1~20.04),
+ libubsan1 (= 10.3.0-1ubuntu1~20.04),
+ libuchardet0 (= 0.0.6-3build1),
+ libudev1 (= 245.4-4ubuntu3.20),
+ libunistring2 (= 0.9.10-2),
+ libuuid1 (= 2.34-0.1ubuntu9.3),
+ libxml2 (= 2.9.10+dfsg-5ubuntu0.20.04.5),
+ libzstd1 (= 1.4.4+dfsg-3ubuntu0.1),
+ linux-libc-dev (= 5.4.0-146.163),
+ login (= 1:4.8.1-1ubuntu5.20.04.4),
+ lsb-base (= 11.1.0ubuntu2),
+ m4 (= 1.4.18-4),
+ make (= 4.2.1-1.2),
+ man-db (= 2.9.1-1),
+ mawk (= 1.3.4.20200120-2),
+ ncurses-base (= 6.2-0ubuntu2),
+ ncurses-bin (= 6.2-0ubuntu2),
+ patch (= 2.7.6-6),
+ perl (= 5.30.0-9ubuntu0.3),
+ perl-base (= 5.30.0-9ubuntu0.3),
+ perl-modules-5.30 (= 5.30.0-9ubuntu0.3),
+ po-debconf (= 1.0.21),
+ readline-common (= 8.0-4),
+ sed (= 4.7-1),
+ sensible-utils (= 0.0.12+nmu1),
+ sysvinit-utils (= 2.96-2.1ubuntu1),
+ tar (= 1.30+dfsg-7ubuntu0.20.04.3),
+ tzdata (= 2022g-0ubuntu0.20.04.1),
+ util-linux (= 2.34-0.1ubuntu9.3),
+ xz-utils (= 5.2.4-1ubuntu1.1),
+ zlib1g (= 1:1.2.11.dfsg-2ubuntu1.5)
+Environment:
+ DEB_BUILD_OPTIONS="parallel=8"
+ LANG="en_US.UTF-8"
+ LD_LIBRARY_PATH="/opt/intel/sgxsdk/sdk_libs:/opt/intel/sgxsdk/sdk_libs:/opt/intel/sgxsdk/sdk_libs:/opt/merge/sgxsdk/sdk_libs"
+ MAKEFLAGS=""
+ SOURCE_DATE_EPOCH="1681221648"

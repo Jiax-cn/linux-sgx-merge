@@ -1,0 +1,41 @@
+Format: 1.8
+Date: Mon, 10 Feb 2020 15:19:41 +0800
+Source: libsgx-ra-network
+Binary: libsgx-ra-network libsgx-ra-network-dev
+Architecture: source amd64
+Version: 1.14.100.3-focal1
+Distribution: unstable
+Urgency: low
+Maintainer: <junli.sun@intel.com>
+Changed-By: Junli Sun <junli.sun@intel.com>
+Description:
+ libsgx-ra-network - Intel(R) Software Guard Extensions Registration Agent network lib
+ libsgx-ra-network-dev - Intel(R) Software Guard Extensions Registration Agent network lib
+Changes:
+ libsgx-ra-network (1.14.100.3-focal1) unstable; urgency=low
+ .
+   * Initial release
+Checksums-Sha1:
+ 4807f296d9b5c3c19901af5b5b1be5b86b33a590 1053 libsgx-ra-network_1.14.100.3-focal1.dsc
+ 68965bf1bde9a254447773328d07cd87fd7b4218 19638 libsgx-ra-network_1.14.100.3.orig.tar.gz
+ dd0c56de9a1e56ac1dc0746a97bc4f597317f627 3132 libsgx-ra-network_1.14.100.3-focal1.debian.tar.xz
+ b49f88046cac6531ca1c91d03d64473b0e2153e1 3520 libsgx-ra-network-dbgsym_1.14.100.3-focal1_amd64.ddeb
+ 9a68186969d08eb083d99778c480997a49537363 5228 libsgx-ra-network-dev_1.14.100.3-focal1_amd64.deb
+ a8ce7856a9f8f907a30241a2bf745d85853bafc9 6437 libsgx-ra-network_1.14.100.3-focal1_amd64.buildinfo
+ 38f92988e6126b978e7642703f75861b18d68cd2 14192 libsgx-ra-network_1.14.100.3-focal1_amd64.deb
+Checksums-Sha256:
+ b9bc9cfcbc7cb2219eab6fd55c6e9d19ab0dade2082b5e7d4bd6c91dde44d57c 1053 libsgx-ra-network_1.14.100.3-focal1.dsc
+ 765e211b725ac5fb9d62cd05ff586f99e7948116e987a68476c65d3ccd7d9c4d 19638 libsgx-ra-network_1.14.100.3.orig.tar.gz
+ 0ea5f661cde1236ee5ca50224a233bd18a7481c50730a025f9f695adfb81df0d 3132 libsgx-ra-network_1.14.100.3-focal1.debian.tar.xz
+ 259e753d66949e264d6ad74211f9025ba3a210695c5bdee693f1fcabaf991f55 3520 libsgx-ra-network-dbgsym_1.14.100.3-focal1_amd64.ddeb
+ d719b481c94a5a32e63c225c43d63bb7473e77467b471748af52b7258db22fa5 5228 libsgx-ra-network-dev_1.14.100.3-focal1_amd64.deb
+ 5f71fd6c6c7654237e1452bb5c5d604c9e0377595993c26a3d9af067c92bd204 6437 libsgx-ra-network_1.14.100.3-focal1_amd64.buildinfo
+ 040a15fe4ff1417cbeaaf20f7620891cfbf43589f53d0c50fec78d716adb08a9 14192 libsgx-ra-network_1.14.100.3-focal1_amd64.deb
+Files:
+ d8522adec8bcb5deec0d9baee8f961c3 1053 libs optional libsgx-ra-network_1.14.100.3-focal1.dsc
+ 36c6d77e57dd473657d010050fe2c603 19638 libs optional libsgx-ra-network_1.14.100.3.orig.tar.gz
+ 104e7359cccf23cb37a229cab70ec0a6 3132 libs optional libsgx-ra-network_1.14.100.3-focal1.debian.tar.xz
+ 5d64a04b9d41da4056ba1405fe151810 3520 debug optional libsgx-ra-network-dbgsym_1.14.100.3-focal1_amd64.ddeb
+ 91f9a6b38b41993ecf0ea353c60f146f 5228 devel optional libsgx-ra-network-dev_1.14.100.3-focal1_amd64.deb
+ d1cdd814ecd71a38d0a3cacca61d7f34 6437 libs optional libsgx-ra-network_1.14.100.3-focal1_amd64.buildinfo
+ 15a85430ccc454510f2a15cc7d5230f8 14192 libs optional libsgx-ra-network_1.14.100.3-focal1_amd64.deb

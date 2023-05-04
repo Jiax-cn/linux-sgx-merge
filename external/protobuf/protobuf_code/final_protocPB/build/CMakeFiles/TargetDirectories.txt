@@ -1,0 +1,10 @@
+/root/linux-sgx-merge/external/protobuf/protobuf_code/final_protocPB/build/CMakeFiles/install/strip.dir
+/root/linux-sgx-merge/external/protobuf/protobuf_code/final_protocPB/build/CMakeFiles/install/local.dir
+/root/linux-sgx-merge/external/protobuf/protobuf_code/final_protocPB/build/CMakeFiles/install.dir
+/root/linux-sgx-merge/external/protobuf/protobuf_code/final_protocPB/build/CMakeFiles/list_install_components.dir
+/root/linux-sgx-merge/external/protobuf/protobuf_code/final_protocPB/build/CMakeFiles/rebuild_cache.dir
+/root/linux-sgx-merge/external/protobuf/protobuf_code/final_protocPB/build/CMakeFiles/edit_cache.dir
+/root/linux-sgx-merge/external/protobuf/protobuf_code/final_protocPB/build/CMakeFiles/protoc.dir
+/root/linux-sgx-merge/external/protobuf/protobuf_code/final_protocPB/build/CMakeFiles/libprotobuf.dir
+/root/linux-sgx-merge/external/protobuf/protobuf_code/final_protocPB/build/CMakeFiles/libprotoc.dir
+/root/linux-sgx-merge/external/protobuf/protobuf_code/final_protocPB/build/CMakeFiles/libprotobuf-lite.dir

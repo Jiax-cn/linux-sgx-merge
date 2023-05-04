@@ -1,0 +1,41 @@
+Format: 1.8
+Date: Thu, 10 Oct 2019 15:19:41 +0800
+Source: libsgx-dcap-default-qpl
+Binary: libsgx-dcap-default-qpl libsgx-dcap-default-qpl-dev
+Architecture: source amd64
+Version: 1.14.100.3-focal1
+Distribution: unstable
+Urgency: low
+Maintainer: <xiangquan.liu@intel.com>
+Changed-By: Xiangquan Liu <xiangquan.liu@intel.com>
+Description:
+ libsgx-dcap-default-qpl - Intel(R) Software Guard Extensions Default Quote Provider Library
+ libsgx-dcap-default-qpl-dev - Intel(R) Software Guard Extensions Default Quote Provider Library
+Changes:
+ libsgx-dcap-default-qpl (1.14.100.3-focal1) unstable; urgency=low
+ .
+   * Initial release
+Checksums-Sha1:
+ ba4e7ba5565490e96afb2b84e781839e15e292c8 1129 libsgx-dcap-default-qpl_1.14.100.3-focal1.dsc
+ a30d8714d06360ea06275bf9f14216e435f97a3c 2460092 libsgx-dcap-default-qpl_1.14.100.3.orig.tar.gz
+ 112f0cda8d305b7d0498bd27c282be781b4ffacc 2240 libsgx-dcap-default-qpl_1.14.100.3-focal1.debian.tar.xz
+ 9ca00c7c5f5594a0e41228d6a035f1259a08ebeb 1560468 libsgx-dcap-default-qpl-dbgsym_1.14.100.3-focal1_amd64.ddeb
+ 9bc2906a771e13123bc83773253abb5e5978c2da 2768 libsgx-dcap-default-qpl-dev_1.14.100.3-focal1_amd64.deb
+ 794e1e7e1a52b90717e730d005e9e46d7a836373 6539 libsgx-dcap-default-qpl_1.14.100.3-focal1_amd64.buildinfo
+ 876cb97b38c997de4925c693d1e63af4d66c19b3 700364 libsgx-dcap-default-qpl_1.14.100.3-focal1_amd64.deb
+Checksums-Sha256:
+ 224d467017bb0dbda91d7d407efb542a70ac892c8de48bbe519508aeeaae734f 1129 libsgx-dcap-default-qpl_1.14.100.3-focal1.dsc
+ d96e2f27b87e8d1fb949257b81f05fb8046eed4c45e4bab01d0445ceeb3f95bb 2460092 libsgx-dcap-default-qpl_1.14.100.3.orig.tar.gz
+ a392678fb5f753ce06bf9889391bb917d2322fe9382b00c2e2491341c35c4169 2240 libsgx-dcap-default-qpl_1.14.100.3-focal1.debian.tar.xz
+ 2302a0f85467426610a7f63d2f3bc50f8fa5443d97b8611a0cf759c5a0ed95d9 1560468 libsgx-dcap-default-qpl-dbgsym_1.14.100.3-focal1_amd64.ddeb
+ 360a2ad8e5fe5fb52e1a23a1e656d1f8bac475afe95b77d8255aee74c2214ed5 2768 libsgx-dcap-default-qpl-dev_1.14.100.3-focal1_amd64.deb
+ 8b2ab12546097503a0c073560ad22b758bae05d5fff6667702c4c109e5e6d593 6539 libsgx-dcap-default-qpl_1.14.100.3-focal1_amd64.buildinfo
+ d2debc777316a1bd9c05a35b79b9788346b41dd18d33caacef1e98d1f86ec216 700364 libsgx-dcap-default-qpl_1.14.100.3-focal1_amd64.deb
+Files:
+ fced531f5afa310a050e49c42808e406 1129 libs optional libsgx-dcap-default-qpl_1.14.100.3-focal1.dsc
+ 8a0b31ebc1ae4e2a622ed784f3b4cd81 2460092 libs optional libsgx-dcap-default-qpl_1.14.100.3.orig.tar.gz
+ 956b59d039d89cfb073b0e72f926b9dc 2240 libs optional libsgx-dcap-default-qpl_1.14.100.3-focal1.debian.tar.xz
+ 3deadb7c9e11c137c27559679086c055 1560468 debug optional libsgx-dcap-default-qpl-dbgsym_1.14.100.3-focal1_amd64.ddeb
+ bfd96aaad53cee4ebcd0828f4f074b0a 2768 devel optional libsgx-dcap-default-qpl-dev_1.14.100.3-focal1_amd64.deb
+ dedc9e8a4317115db2989115c660d080 6539 libs optional libsgx-dcap-default-qpl_1.14.100.3-focal1_amd64.buildinfo
+ 662ee8ec198928f4046963a2704b87a8 700364 libs optional libsgx-dcap-default-qpl_1.14.100.3-focal1_amd64.deb

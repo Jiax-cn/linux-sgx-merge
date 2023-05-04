@@ -1,0 +1,41 @@
+Format: 1.8
+Date: Mon, 27 Jul 2020 10:54:41 +0800
+Source: libsgx-tdx-logic
+Binary: libsgx-tdx-logic libsgx-tdx-logic-dev
+Architecture: source amd64
+Version: 1.14.100.3-focal1
+Distribution: unstable
+Urgency: low
+Maintainer: <feng.qiu@intel.com>
+Changed-By: Qiu Feng <feng.qiu@intel.com>
+Description:
+ libsgx-tdx-logic - Intel(R) Trust Domain Extensions QE logic library
+ libsgx-tdx-logic-dev - Intel(R) Trust Domain Extensions QE logic library For Developers
+Changes:
+ libsgx-tdx-logic (1.14.100.3-focal1) unstable; urgency=low
+ .
+   * 0.1 pre-alpha release
+Checksums-Sha1:
+ 9e0c60af1e60e54dff4410247b46f872680a48f9 1041 libsgx-tdx-logic_1.14.100.3-focal1.dsc
+ 7803dbdefa18efe90afbfee7dfdf5bc7194a6af5 65783 libsgx-tdx-logic_1.14.100.3.orig.tar.gz
+ 1db0600df7e3b8de01e7262e5e6d76a7eb446b6b 2320 libsgx-tdx-logic_1.14.100.3-focal1.debian.tar.xz
+ 65bc35977703bdf8d5f528cdb720b9358cc0b96f 50652 libsgx-tdx-logic-dbgsym_1.14.100.3-focal1_amd64.ddeb
+ 92208b4e27865f8ca7ac906f6911c95f556e57ff 3188 libsgx-tdx-logic-dev_1.14.100.3-focal1_amd64.deb
+ e2280b34943eee548b68729ae952abd63b81bb78 6425 libsgx-tdx-logic_1.14.100.3-focal1_amd64.buildinfo
+ 26c25d2c2adb1fd4a8f10fcfac9589691275e042 13880 libsgx-tdx-logic_1.14.100.3-focal1_amd64.deb
+Checksums-Sha256:
+ 476a41c7df02540667d219861140174bf730385d729220f30f3ebba05d06ff08 1041 libsgx-tdx-logic_1.14.100.3-focal1.dsc
+ ca919beb852bb39a7a6ba5f6c53b36c1d8eabe72b8eb6ce0e5df509c3cbb59e8 65783 libsgx-tdx-logic_1.14.100.3.orig.tar.gz
+ beb8ede0543572ed3cf7d2ead2be8fdde22519c6c7dae007c0d7a2a0be564105 2320 libsgx-tdx-logic_1.14.100.3-focal1.debian.tar.xz
+ fbf9b5eae397b826e251b11ab2984445b83ecf778f58b1802dd78abaa97c28c9 50652 libsgx-tdx-logic-dbgsym_1.14.100.3-focal1_amd64.ddeb
+ dad9d5b040965293f22d44a9692bbe5db46f27ce593dd653939acd065a200a6f 3188 libsgx-tdx-logic-dev_1.14.100.3-focal1_amd64.deb
+ 34275eb46ee284e8798b339cd1425a61d9e7f8c66aa248dd40310d4822ffc6b0 6425 libsgx-tdx-logic_1.14.100.3-focal1_amd64.buildinfo
+ ff6023689f709f06b0b3259166e0ac6fcedce9fa416d93f967d10f1ae9ed6441 13880 libsgx-tdx-logic_1.14.100.3-focal1_amd64.deb
+Files:
+ 627410af0c0861e95daaad33e7cec4ad 1041 libs optional libsgx-tdx-logic_1.14.100.3-focal1.dsc
+ 649d0f3d111dada10b2ecf9b89458700 65783 libs optional libsgx-tdx-logic_1.14.100.3.orig.tar.gz
+ 943343aa12f65557b8e1df77005a2e7a 2320 libs optional libsgx-tdx-logic_1.14.100.3-focal1.debian.tar.xz
+ d8879c530c85790af1f2d3f2b41788a6 50652 debug optional libsgx-tdx-logic-dbgsym_1.14.100.3-focal1_amd64.ddeb
+ 7122ccb247a5eb80ec059734d705eae7 3188 devel optional libsgx-tdx-logic-dev_1.14.100.3-focal1_amd64.deb
+ b0f3b5fb15ac7ecf9e7fb7b61bfe0861 6425 libs optional libsgx-tdx-logic_1.14.100.3-focal1_amd64.buildinfo
+ 50e38d774d0c0bb28fae784eeb93cc98 13880 libs optional libsgx-tdx-logic_1.14.100.3-focal1_amd64.deb

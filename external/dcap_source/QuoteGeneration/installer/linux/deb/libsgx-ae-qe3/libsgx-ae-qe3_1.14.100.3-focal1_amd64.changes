@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Thu, 10 Oct 2019 15:19:41 +0800
+Source: libsgx-ae-qe3
+Binary: libsgx-ae-qe3
+Architecture: source amd64
+Version: 1.14.100.3-focal1
+Distribution: unstable
+Urgency: low
+Maintainer: <xiangquan.liu@intel.com>
+Changed-By: Xiangquan Liu <xiangquan.liu@intel.com>
+Description:
+ libsgx-ae-qe3 - Intel(R) Software Guard Extensions QE3
+Changes:
+ libsgx-ae-qe3 (1.14.100.3-focal1) unstable; urgency=low
+ .
+   * Initial release
+Checksums-Sha1:
+ 34c63b47d9391bfc0e1fd459b00150ada6778d49 948 libsgx-ae-qe3_1.14.100.3-focal1.dsc
+ 80a4b96effe77307a40ed87a0f1150cc0d80a0eb 369305 libsgx-ae-qe3_1.14.100.3.orig.tar.gz
+ 55a1e8d91c6cb9864ad350ad6ebb39117f8ad14d 2100 libsgx-ae-qe3_1.14.100.3-focal1.debian.tar.xz
+ 8fa65851b19220bf87f0276687db26b9cd91cc9a 5757 libsgx-ae-qe3_1.14.100.3-focal1_amd64.buildinfo
+ 08146c1f2dc0bdf1082ba639bcb15abeab9745af 224384 libsgx-ae-qe3_1.14.100.3-focal1_amd64.deb
+Checksums-Sha256:
+ 0a0eb38fde09c7fa80dae8b546bcbf2c967e6a321fc2570457eeed3e9066b89c 948 libsgx-ae-qe3_1.14.100.3-focal1.dsc
+ a160d7ea571683ee045ce6fc9a630f1757db0170e228cacc789e5c5923d6d944 369305 libsgx-ae-qe3_1.14.100.3.orig.tar.gz
+ c048cd02fa28e13b42f3af90f1f55ff1a6139240041f3520028f06de5ef085a0 2100 libsgx-ae-qe3_1.14.100.3-focal1.debian.tar.xz
+ 936626c3079996a62f313610ab388e51b9ddac15a8127222be029d99cd5f0664 5757 libsgx-ae-qe3_1.14.100.3-focal1_amd64.buildinfo
+ 145715f0c88e63fb244cbaaad34f9fc3afe97a1c9877273066561f5525282bd3 224384 libsgx-ae-qe3_1.14.100.3-focal1_amd64.deb
+Files:
+ 9a6026992e86cf59dc4e3411bc5b88f3 948 libs optional libsgx-ae-qe3_1.14.100.3-focal1.dsc
+ 7ad822b1f4408f9771199a91091c0153 369305 libs optional libsgx-ae-qe3_1.14.100.3.orig.tar.gz
+ d4ac7e03df743470ee5267c113d6000d 2100 libs optional libsgx-ae-qe3_1.14.100.3-focal1.debian.tar.xz
+ 78c26cefb37fcd963c6d7ef6077cf0ac 5757 libs optional libsgx-ae-qe3_1.14.100.3-focal1_amd64.buildinfo
+ 5c52d9e7b825d54c111cfd3e89c8c4f6 224384 libs optional libsgx-ae-qe3_1.14.100.3-focal1_amd64.deb

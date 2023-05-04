@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Mon, 29 Jul 2019 15:23:51 +0800
+Source: libsgx-uae-service
+Binary: libsgx-uae-service
+Architecture: source amd64
+Version: 2.17.101.1-focal1
+Distribution: unstable
+Urgency: low
+Maintainer: <xiangquan.liu@intel.com>
+Changed-By: Xiangquan Liu <xiangquan.liu@intel.com>
+Description:
+ libsgx-uae-service - Intel(R) Software Guard Extensions Untrusted AE Service
+Changes:
+ libsgx-uae-service (2.17.101.1-focal1) unstable; urgency=low
+ .
+   * Initial Release
+Checksums-Sha1:
+ c3d0193d93c2a4eca983a586ee75585d50291817 968 libsgx-uae-service_2.17.101.1-focal1.dsc
+ ca03077eac3e71d178976242d32a052fcc87d23c 29984 libsgx-uae-service_2.17.101.1.orig.tar.gz
+ 5901bf267be03c823dc220cc8291ef421e74589e 20452 libsgx-uae-service_2.17.101.1-focal1.debian.tar.xz
+ 975e3898917c1a8021ec0f7a058fc82162acd97c 3040 libsgx-uae-service-dbgsym_2.17.101.1-focal1_amd64.ddeb
+ 927a1871ed4259b8105a82045a2a061fc364fde8 6115 libsgx-uae-service_2.17.101.1-focal1_amd64.buildinfo
+ 317fc211d2d118c7823c3e128a15a5a6edf21841 25120 libsgx-uae-service_2.17.101.1-focal1_amd64.deb
+Checksums-Sha256:
+ d5af1266b5a717542ccd19156c9b34584a12300022f1489d8e02f8f6ddfe3cae 968 libsgx-uae-service_2.17.101.1-focal1.dsc
+ 1c768ba31f1dcc8e0b2c510f7ba01c05c73c74cbf22786e49792d71bdb9101fe 29984 libsgx-uae-service_2.17.101.1.orig.tar.gz
+ d803455ae6c636efe3a4877918d3c33df42f3bdf3dd5fceafcb3021b949f1c60 20452 libsgx-uae-service_2.17.101.1-focal1.debian.tar.xz
+ 4ed2f3ccf545af85850f87c8dd6c44885d8fa8198826ecba5fa8f885e4a8a975 3040 libsgx-uae-service-dbgsym_2.17.101.1-focal1_amd64.ddeb
+ 84364ca2e4a0f387fa6e77e419bdc687d99d89af7e07dada8e0d9700183a8339 6115 libsgx-uae-service_2.17.101.1-focal1_amd64.buildinfo
+ fbc1d13397af15d16bf72d4ced76453b6573b60210e5954e4ed08b0b5da4f2ce 25120 libsgx-uae-service_2.17.101.1-focal1_amd64.deb
+Files:
+ 2bb1af2624b9f2019a1dddfd0797cd40 968 libs optional libsgx-uae-service_2.17.101.1-focal1.dsc
+ cf6d2c06b6b3d516ce69d11695e9713d 29984 libs optional libsgx-uae-service_2.17.101.1.orig.tar.gz
+ 7c12bb1303df75ba30fa00d2fe6006fe 20452 libs optional libsgx-uae-service_2.17.101.1-focal1.debian.tar.xz
+ acb1c3e54684df73911eec7d002af3d2 3040 debug optional libsgx-uae-service-dbgsym_2.17.101.1-focal1_amd64.ddeb
+ a9a71c7dddfa4f2e4c9df3d5dc0df48a 6115 libs optional libsgx-uae-service_2.17.101.1-focal1_amd64.buildinfo
+ 9e3da0c6f79a0ec8b9cb2f95a3280f15 25120 libs optional libsgx-uae-service_2.17.101.1-focal1_amd64.deb

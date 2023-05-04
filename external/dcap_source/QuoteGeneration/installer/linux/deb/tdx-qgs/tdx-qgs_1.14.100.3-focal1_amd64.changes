@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Wed, 23 Dec 2020 15:23:51 +0800
+Source: tdx-qgs
+Binary: tdx-qgs
+Architecture: source amd64
+Version: 1.14.100.3-focal1
+Distribution: unstable
+Urgency: low
+Maintainer: <xiangquan.liu@intel.com>
+Changed-By: Xiangquan Liu <xiangquan.liu@intel.com>
+Description:
+ tdx-qgs    - Intel(R) TD Quoting Generation Service
+Changes:
+ tdx-qgs (1.14.100.3-focal1) unstable; urgency=low
+ .
+   * Initial Release
+Checksums-Sha1:
+ 615120280e30a8471772616ac3c1f852e6d809bd 898 tdx-qgs_1.14.100.3-focal1.dsc
+ 7d412146455b08c0c15c79eb08f287cc7c4e8f2e 1225217 tdx-qgs_1.14.100.3.orig.tar.gz
+ efa52ac9494fce9f997094d582fac4c9836c8f74 1484 tdx-qgs_1.14.100.3-focal1.debian.tar.xz
+ 264922937ae50326500845ad31f96d28fdbd47be 1123028 tdx-qgs-dbgsym_1.14.100.3-focal1_amd64.ddeb
+ 02e3b1b12188dd34ffc81f71d00cf8d4f157c9ed 6004 tdx-qgs_1.14.100.3-focal1_amd64.buildinfo
+ 8c7c7944a571bdd5678f5cbe3161b9450acaf224 76376 tdx-qgs_1.14.100.3-focal1_amd64.deb
+Checksums-Sha256:
+ 4b15bfbbb80b61f19c89dfbed232698d2225d1aec275a1415ec2361684a57799 898 tdx-qgs_1.14.100.3-focal1.dsc
+ cf766e44503d7f9fb265d3d97e32c525cc9ae051e636b749caf2fd72973158fe 1225217 tdx-qgs_1.14.100.3.orig.tar.gz
+ dec55edfa555dcc82689e2bdf153f4329b039c0c4d4754e3f3cf807e72d8119a 1484 tdx-qgs_1.14.100.3-focal1.debian.tar.xz
+ 5b33f33c29c0503c0ad6539900c2c45ce9bb01d003b075b58e683cd7d9c4760f 1123028 tdx-qgs-dbgsym_1.14.100.3-focal1_amd64.ddeb
+ f905c3ea2d54688507aaa39981b279b85f1d1955f233fd38c61849038feda82d 6004 tdx-qgs_1.14.100.3-focal1_amd64.buildinfo
+ 5f5d8e12e5b82a5825a30b7eef72e660ba1a0356baca82a884cbff3fafac81cf 76376 tdx-qgs_1.14.100.3-focal1_amd64.deb
+Files:
+ 603aaa663e07dc5022b7336e1fca02c0 898 utils optional tdx-qgs_1.14.100.3-focal1.dsc
+ eb4daf66bc979d03de27a034bdf021b2 1225217 utils optional tdx-qgs_1.14.100.3.orig.tar.gz
+ 681bf62412eb9df748ec4cb655c7577a 1484 utils optional tdx-qgs_1.14.100.3-focal1.debian.tar.xz
+ ad1f5e0162c3884d0e8733dca4b0f6f8 1123028 debug optional tdx-qgs-dbgsym_1.14.100.3-focal1_amd64.ddeb
+ 4ac351739933b84ddd503a8b1139f672 6004 utils optional tdx-qgs_1.14.100.3-focal1_amd64.buildinfo
+ 2572227d6a3e1859190cd137cc66d03d 76376 utils optional tdx-qgs_1.14.100.3-focal1_amd64.deb

@@ -1,0 +1,40 @@
+Format: 1.8
+Date: Mon, 20 Jan 2020 15:19:41 +0800
+Source: libsgx-qe3-logic
+Binary: libsgx-qe3-logic
+Architecture: source amd64
+Version: 1.14.100.3-focal1
+Distribution: unstable
+Urgency: low
+Maintainer: <xiangquan.liu@intel.com>
+Changed-By: Xiangquan Liu <xiangquan.liu@intel.com>
+Description:
+ libsgx-qe3-logic - Intel(R) Software Guard Extensions Data Center Attestation Primit
+Changes:
+ libsgx-qe3-logic (1.14.100.3-focal1) unstable; urgency=low
+ .
+   * 1.0 Gold release
+   * Provide the Quote Verification Library and sample project. Please note this library is only provided in source code in the Intel® SGX DCAP project repo
+   * Provide the Quote Generation Library and sample project
+   * Provide the sample project for Platform Provider Library
+Checksums-Sha1:
+ 7a19cca12a79f41c8c9496589752036f896a9fde 972 libsgx-qe3-logic_1.14.100.3-focal1.dsc
+ b37ede6b8e58f01ee8f3b640ea3602bf91d1ed0a 67247 libsgx-qe3-logic_1.14.100.3.orig.tar.gz
+ aa93409eae08a4553063947fbd7e69f8edf7f039 2272 libsgx-qe3-logic_1.14.100.3-focal1.debian.tar.xz
+ eb046d083af202a0b250ac9478574b0eca15248d 52780 libsgx-qe3-logic-dbgsym_1.14.100.3-focal1_amd64.ddeb
+ 38bc2ef75dd331d97164bc4c751eb58d0618a164 6097 libsgx-qe3-logic_1.14.100.3-focal1_amd64.buildinfo
+ 215ca7a15abf9a32978577911f99da71af80f84c 13420 libsgx-qe3-logic_1.14.100.3-focal1_amd64.deb
+Checksums-Sha256:
+ 96f0665a2450df2b5f11b57c1f9aca63ed16461a134caf2b6da7e5be584cb04c 972 libsgx-qe3-logic_1.14.100.3-focal1.dsc
+ 2df45d70cffad9b629b2630b28f334705ff346e5ad03cbc94b4165b9a4b4535f 67247 libsgx-qe3-logic_1.14.100.3.orig.tar.gz
+ ae42c924b315086b0f3c4ad2ccfb2725f8cbcc1c329a4b49b9b8f3dbf1a053af 2272 libsgx-qe3-logic_1.14.100.3-focal1.debian.tar.xz
+ 4274b4def63604fe73aa816d89a54e313ce309ec28f16f250f4fcbef5a9d652a 52780 libsgx-qe3-logic-dbgsym_1.14.100.3-focal1_amd64.ddeb
+ aeeb63c7d8d9b94c21104f5abc44b208b8b559f6aa79381cae931c5942b81a4f 6097 libsgx-qe3-logic_1.14.100.3-focal1_amd64.buildinfo
+ f21f097517b4f2ffe2a3f64dd08c51965af20e9b4fcbfb2e05a87a89cf046adb 13420 libsgx-qe3-logic_1.14.100.3-focal1_amd64.deb
+Files:
+ 1a6916e0867b611462d8b05bc520f0bf 972 libs optional libsgx-qe3-logic_1.14.100.3-focal1.dsc
+ 7f229785503ee7b98689255060a8e56f 67247 libs optional libsgx-qe3-logic_1.14.100.3.orig.tar.gz
+ 22fc8fc4ee3aec6900d8186007620667 2272 libs optional libsgx-qe3-logic_1.14.100.3-focal1.debian.tar.xz
+ a4c1def4a0bb7249e6f6595bc8245dc4 52780 debug optional libsgx-qe3-logic-dbgsym_1.14.100.3-focal1_amd64.ddeb
+ 036a0b3f87c8cf6ea7799805c2c2cc49 6097 libs optional libsgx-qe3-logic_1.14.100.3-focal1_amd64.buildinfo
+ 2c953ce8757c22019770fe1619648ba4 13420 libs optional libsgx-qe3-logic_1.14.100.3-focal1_amd64.deb

@@ -1,0 +1,41 @@
+Format: 1.8
+Date: Mon, 29 Jul 2019 15:23:51 +0800
+Source: libsgx-launch
+Binary: libsgx-launch libsgx-launch-dev
+Architecture: source amd64
+Version: 2.17.101.1-focal1
+Distribution: unstable
+Urgency: low
+Maintainer: <xiangquan.liu@intel.com>
+Changed-By: Xiangquan Liu <xiangquan.liu@intel.com>
+Description:
+ libsgx-launch - Intel(R) Software Guard Extensions Launch Service
+ libsgx-launch-dev - Intel(R) Software Guard Extensions Launch Service for Developers
+Changes:
+ libsgx-launch (2.17.101.1-focal1) unstable; urgency=low
+ .
+   * Initial Release
+Checksums-Sha1:
+ 9e19a1aef697e6f97a120cb9af4ddc948b2415bf 994 libsgx-launch_2.17.101.1-focal1.dsc
+ 03e29a6af2d04c2b580dbcf9f695b36444ca7242 125304 libsgx-launch_2.17.101.1.orig.tar.gz
+ 683f719802d9c14be6043fcc80cb9e45d023a4ee 20544 libsgx-launch_2.17.101.1-focal1.debian.tar.xz
+ 8cc0248324fbd0f93a071ac70a705c01d08833a4 22552 libsgx-launch-dbgsym_2.17.101.1-focal1_amd64.ddeb
+ 55f89da242c1fcb921fe6a1f0e9522b600644bf5 21532 libsgx-launch-dev_2.17.101.1-focal1_amd64.deb
+ 860357f7630fd1b6a641ada75be6c104b12af7be 6379 libsgx-launch_2.17.101.1-focal1_amd64.buildinfo
+ fd314314fb220e25b5c68363486fc6c2c42a69c0 73372 libsgx-launch_2.17.101.1-focal1_amd64.deb
+Checksums-Sha256:
+ de03dc893d7246832aecd10e4a89f3f4dbb3449cb94d5044475fec5d50183e0f 994 libsgx-launch_2.17.101.1-focal1.dsc
+ 4f31d03371dd0b4199998714b95bc82537bebb75a4f0cfa84fd4a915344f6973 125304 libsgx-launch_2.17.101.1.orig.tar.gz
+ 0805b38ee0528de7292f0aab3239f58fadc39db1d20faad49b945c94a15d5c02 20544 libsgx-launch_2.17.101.1-focal1.debian.tar.xz
+ 5ba5e661a08cf668f295de321b9a28ab7b8ae4b4f70aea67400a7ddf4be4b8c6 22552 libsgx-launch-dbgsym_2.17.101.1-focal1_amd64.ddeb
+ 19e7142c94dabe83e446864bdec23cd2370c1ab25ae55f091f6dd17e3feec9b1 21532 libsgx-launch-dev_2.17.101.1-focal1_amd64.deb
+ 2bb3cab738ecdb13ac9bb1efdcef4049496644513855761a56065ee77688da4e 6379 libsgx-launch_2.17.101.1-focal1_amd64.buildinfo
+ 272d35e950b50275538b2617a3c5ac2cb4c3b057d28d65cfce8a85df36239c2b 73372 libsgx-launch_2.17.101.1-focal1_amd64.deb
+Files:
+ 9295c6a8c35a7e47abc74d40eeae409a 994 libs optional libsgx-launch_2.17.101.1-focal1.dsc
+ 36ba237b7fb4a9c880aafb3f454c1b2e 125304 libs optional libsgx-launch_2.17.101.1.orig.tar.gz
+ 906f93cb9899ba6b2d01f7232f7d584a 20544 libs optional libsgx-launch_2.17.101.1-focal1.debian.tar.xz
+ d9b6b13a8702f1a89eb25a25b982ccbd 22552 debug optional libsgx-launch-dbgsym_2.17.101.1-focal1_amd64.ddeb
+ 5b8a402d86c9fca12933a4808543f455 21532 devel optional libsgx-launch-dev_2.17.101.1-focal1_amd64.deb
+ d9b39d2544b6cf488bd18f9ff520867d 6379 libs optional libsgx-launch_2.17.101.1-focal1_amd64.buildinfo
+ 125aa5e96ffd1fe2bc9fdef8c418ce9d 73372 libs optional libsgx-launch_2.17.101.1-focal1_amd64.deb

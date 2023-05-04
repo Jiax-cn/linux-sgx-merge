@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Mon, 20 Dec 2021 03:46:52 +0800
+Source: libsgx-ae-id-enclave
+Binary: libsgx-ae-id-enclave
+Architecture: source amd64
+Version: 1.14.100.3-focal1
+Distribution: unstable
+Urgency: low
+Maintainer: <xun.li@intel.com>
+Changed-By: Li Xun <xun.li@intel.com>
+Description:
+ libsgx-ae-id-enclave - Intel(R) Software Guard Extensions Data Center Attestation Primit
+Changes:
+ libsgx-ae-id-enclave (1.14.100.3-focal1) unstable; urgency=low
+ .
+   * Initial release
+Checksums-Sha1:
+ 0910c98930313e3c000077da0f48677221628513 1001 libsgx-ae-id-enclave_1.14.100.3-focal1.dsc
+ 1b7ee6cf428ab273314d13cb70831436e50a3471 60340 libsgx-ae-id-enclave_1.14.100.3.orig.tar.gz
+ 8d350054736dfd1dc2916c1e25411383437f545d 2116 libsgx-ae-id-enclave_1.14.100.3-focal1.debian.tar.xz
+ 4c507d07ba54c9db8e2a71cde6d5d8a32633aa64 5813 libsgx-ae-id-enclave_1.14.100.3-focal1_amd64.buildinfo
+ 76b8eb5be46bea857955bb9636231e3cb7360ba1 51048 libsgx-ae-id-enclave_1.14.100.3-focal1_amd64.deb
+Checksums-Sha256:
+ c5007f1131676ff5fa7bbd62046c2ed8297a469e61e8a43a73b48d0192a6202d 1001 libsgx-ae-id-enclave_1.14.100.3-focal1.dsc
+ 72188213d585d3b571821a21e723a88659357dcc4120a54655461707ef5dd587 60340 libsgx-ae-id-enclave_1.14.100.3.orig.tar.gz
+ 77b78abe534c95bcaaa4e30cb6c9537f195553c0f54b3740a4f9cd0b6ac11900 2116 libsgx-ae-id-enclave_1.14.100.3-focal1.debian.tar.xz
+ 23e3c02996cd0093ab033bf0d652e8c05d20922205a54be87ef6c92207df219b 5813 libsgx-ae-id-enclave_1.14.100.3-focal1_amd64.buildinfo
+ 085742449ee15a3a61df72f94d4a9aa94dee6b1ad7dc9067166c66d944a9a40c 51048 libsgx-ae-id-enclave_1.14.100.3-focal1_amd64.deb
+Files:
+ 01564a45f19bfc85bfe01987f2a54299 1001 libs optional libsgx-ae-id-enclave_1.14.100.3-focal1.dsc
+ 74cebda3fba0fa6ff0340ef678cd3a8d 60340 libs optional libsgx-ae-id-enclave_1.14.100.3.orig.tar.gz
+ 2733fc755a4e76dd1c514b60e5df6c73 2116 libs optional libsgx-ae-id-enclave_1.14.100.3-focal1.debian.tar.xz
+ 3491268f12480ee304458865ad35f0cf 5813 libs optional libsgx-ae-id-enclave_1.14.100.3-focal1_amd64.buildinfo
+ c20582d46513233cb693892d8ef11e76 51048 libs optional libsgx-ae-id-enclave_1.14.100.3-focal1_amd64.deb

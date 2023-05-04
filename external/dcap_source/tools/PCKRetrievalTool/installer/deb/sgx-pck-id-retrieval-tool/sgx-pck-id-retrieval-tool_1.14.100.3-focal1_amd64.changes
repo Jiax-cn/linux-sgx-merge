@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Fri, 24 Apr 2020 15:19:41 +0800
+Source: sgx-pck-id-retrieval-tool
+Binary: sgx-pck-id-retrieval-tool
+Architecture: source amd64
+Version: 1.14.100.3-focal1
+Distribution: unstable
+Urgency: low
+Maintainer: Junli Sun <junli.sun@intel.com>
+Changed-By: Junli Sun <junli.sun@intel.com>
+Description:
+ sgx-pck-id-retrieval-tool - Intel(R) Software Guard Extensions: this tool is used to collect
+Changes:
+ sgx-pck-id-retrieval-tool (1.14.100.3-focal1) unstable; urgency=low
+ .
+   * Initial release
+Checksums-Sha1:
+ bc61072377aaed3fbec71d9c8b7237ea74b2a8d1 1059 sgx-pck-id-retrieval-tool_1.14.100.3-focal1.dsc
+ a7c8ca882c171c276f408167a8d3be9b5693ee45 23498 sgx-pck-id-retrieval-tool_1.14.100.3.orig.tar.gz
+ 7ff524e961e2f5835d49f216e97a27dafcfbfe47 2232 sgx-pck-id-retrieval-tool_1.14.100.3-focal1.debian.tar.xz
+ 15a88ef8d602a258994889f2401a2b0097b71df7 4340 sgx-pck-id-retrieval-tool-dbgsym_1.14.100.3-focal1_amd64.ddeb
+ 4275f5168c57411a16fd135f761023c98b8b49d5 6196 sgx-pck-id-retrieval-tool_1.14.100.3-focal1_amd64.buildinfo
+ 548dcc253a2a5f87024e5f435eb18e49683dcc31 18484 sgx-pck-id-retrieval-tool_1.14.100.3-focal1_amd64.deb
+Checksums-Sha256:
+ 2ba4ceeec0a39616e66a36688d669e4338a41d3fc0b524851e8fb41557f9817e 1059 sgx-pck-id-retrieval-tool_1.14.100.3-focal1.dsc
+ 1a28d25ec88df2f135021c3240626332f189733f4dbff0d71fb3a644f7ba304c 23498 sgx-pck-id-retrieval-tool_1.14.100.3.orig.tar.gz
+ be830462c00b4cfd955ae02463c2550436cd146bb42b0ee2cdf1b38153733cdc 2232 sgx-pck-id-retrieval-tool_1.14.100.3-focal1.debian.tar.xz
+ 119da3b1e6ca2ce12f0066c17a03f1c97bdc03f927724c804236da31a30f3bb3 4340 sgx-pck-id-retrieval-tool-dbgsym_1.14.100.3-focal1_amd64.ddeb
+ 48cd23347845f3b3a00f3a45ac5020b16ab0a58952db56d0262633655a3b5358 6196 sgx-pck-id-retrieval-tool_1.14.100.3-focal1_amd64.buildinfo
+ 9addc1d827017d441fac487d11eecfdfcc797e1d5e5d532f3660b9e988918947 18484 sgx-pck-id-retrieval-tool_1.14.100.3-focal1_amd64.deb
+Files:
+ f6f0c7a9ee5620c1d8458f19744616f8 1059 misc optional sgx-pck-id-retrieval-tool_1.14.100.3-focal1.dsc
+ 02a0c99df6e61fa8b8a91d4cb481260d 23498 misc optional sgx-pck-id-retrieval-tool_1.14.100.3.orig.tar.gz
+ df6b93b12d764a4dafa4c31898b7f50d 2232 misc optional sgx-pck-id-retrieval-tool_1.14.100.3-focal1.debian.tar.xz
+ 5c0a134ca0ae937f812f7e7031ff8378 4340 debug optional sgx-pck-id-retrieval-tool-dbgsym_1.14.100.3-focal1_amd64.ddeb
+ 210a595e31b69c10d8f5d90ea211af04 6196 misc optional sgx-pck-id-retrieval-tool_1.14.100.3-focal1_amd64.buildinfo
+ 35edc71cbbc2ba927ca90e38d0ee8c06 18484 misc optional sgx-pck-id-retrieval-tool_1.14.100.3-focal1_amd64.deb
