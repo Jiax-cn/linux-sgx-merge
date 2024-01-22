@@ -18,23 +18,23 @@ Changes:
    * Provide the Quote Generation Library and sample project
    * Provide the sample project for Platform Provider Library
 Checksums-Sha1:
- 7a19cca12a79f41c8c9496589752036f896a9fde 972 libsgx-qe3-logic_1.14.100.3-focal1.dsc
- b37ede6b8e58f01ee8f3b640ea3602bf91d1ed0a 67247 libsgx-qe3-logic_1.14.100.3.orig.tar.gz
- aa93409eae08a4553063947fbd7e69f8edf7f039 2272 libsgx-qe3-logic_1.14.100.3-focal1.debian.tar.xz
- eb046d083af202a0b250ac9478574b0eca15248d 52780 libsgx-qe3-logic-dbgsym_1.14.100.3-focal1_amd64.ddeb
- 38bc2ef75dd331d97164bc4c751eb58d0618a164 6097 libsgx-qe3-logic_1.14.100.3-focal1_amd64.buildinfo
- 215ca7a15abf9a32978577911f99da71af80f84c 13420 libsgx-qe3-logic_1.14.100.3-focal1_amd64.deb
+ ecd073b09ad701eb9b556d17cac16dae9bb1d9a0 972 libsgx-qe3-logic_1.14.100.3-focal1.dsc
+ 2ca685f9684c843d0ff435218bfa879612f2f08a 67249 libsgx-qe3-logic_1.14.100.3.orig.tar.gz
+ e934cf8c785595917b8949fd1c9db6326136e497 2276 libsgx-qe3-logic_1.14.100.3-focal1.debian.tar.xz
+ a60ab4ba9f86f3b6c1d9dd71b377ce09717f5f13 52792 libsgx-qe3-logic-dbgsym_1.14.100.3-focal1_amd64.ddeb
+ bfd851b5158890873d25ee6f4b14315fe85899b8 6070 libsgx-qe3-logic_1.14.100.3-focal1_amd64.buildinfo
+ f3b86bd5165ceca594a17d37eafe5f08388b38a9 13420 libsgx-qe3-logic_1.14.100.3-focal1_amd64.deb
 Checksums-Sha256:
- 96f0665a2450df2b5f11b57c1f9aca63ed16461a134caf2b6da7e5be584cb04c 972 libsgx-qe3-logic_1.14.100.3-focal1.dsc
- 2df45d70cffad9b629b2630b28f334705ff346e5ad03cbc94b4165b9a4b4535f 67247 libsgx-qe3-logic_1.14.100.3.orig.tar.gz
- ae42c924b315086b0f3c4ad2ccfb2725f8cbcc1c329a4b49b9b8f3dbf1a053af 2272 libsgx-qe3-logic_1.14.100.3-focal1.debian.tar.xz
- 4274b4def63604fe73aa816d89a54e313ce309ec28f16f250f4fcbef5a9d652a 52780 libsgx-qe3-logic-dbgsym_1.14.100.3-focal1_amd64.ddeb
- aeeb63c7d8d9b94c21104f5abc44b208b8b559f6aa79381cae931c5942b81a4f 6097 libsgx-qe3-logic_1.14.100.3-focal1_amd64.buildinfo
- f21f097517b4f2ffe2a3f64dd08c51965af20e9b4fcbfb2e05a87a89cf046adb 13420 libsgx-qe3-logic_1.14.100.3-focal1_amd64.deb
+ 12ec132ea750cf773bca7fbdf096ee11120d7b34a5d491f4d36765a03c05a7fc 972 libsgx-qe3-logic_1.14.100.3-focal1.dsc
+ 8e3e08791385fd9ac23cc97639ddfb09315492cdf0063bd0f1f3793c8d06e6aa 67249 libsgx-qe3-logic_1.14.100.3.orig.tar.gz
+ 77d91fdd5cb85e265020380c7542c4df37ebe70e54a090aaf5fb84d21f74fbbc 2276 libsgx-qe3-logic_1.14.100.3-focal1.debian.tar.xz
+ 26deeeeb336f3c2b2eee062a2d3269f206f2d8d48b1af6124f27766478b6edfe 52792 libsgx-qe3-logic-dbgsym_1.14.100.3-focal1_amd64.ddeb
+ ff1cb0586698756cac25e541786995d70642e95d34ed7c09a9ddb0ad426fc733 6070 libsgx-qe3-logic_1.14.100.3-focal1_amd64.buildinfo
+ a37b535e113fe9e02a80decf31cbd0dcc06c08260537bbbf79923747bae734c7 13420 libsgx-qe3-logic_1.14.100.3-focal1_amd64.deb
 Files:
- 1a6916e0867b611462d8b05bc520f0bf 972 libs optional libsgx-qe3-logic_1.14.100.3-focal1.dsc
- 7f229785503ee7b98689255060a8e56f 67247 libs optional libsgx-qe3-logic_1.14.100.3.orig.tar.gz
- 22fc8fc4ee3aec6900d8186007620667 2272 libs optional libsgx-qe3-logic_1.14.100.3-focal1.debian.tar.xz
- a4c1def4a0bb7249e6f6595bc8245dc4 52780 debug optional libsgx-qe3-logic-dbgsym_1.14.100.3-focal1_amd64.ddeb
- 036a0b3f87c8cf6ea7799805c2c2cc49 6097 libs optional libsgx-qe3-logic_1.14.100.3-focal1_amd64.buildinfo
- 2c953ce8757c22019770fe1619648ba4 13420 libs optional libsgx-qe3-logic_1.14.100.3-focal1_amd64.deb
+ c0f4a6e7ed2dc28a3e30a6cf0e55d2cc 972 libs optional libsgx-qe3-logic_1.14.100.3-focal1.dsc
+ 66b401b1ca82374e762aaab37760e1e7 67249 libs optional libsgx-qe3-logic_1.14.100.3.orig.tar.gz
+ 93b80aaf3c70647fcd597f093da9adc4 2276 libs optional libsgx-qe3-logic_1.14.100.3-focal1.debian.tar.xz
+ a82496ce92a74c12372fe330a62090d7 52792 debug optional libsgx-qe3-logic-dbgsym_1.14.100.3-focal1_amd64.ddeb
+ b118febc7d505cfb1889fc3d5c7fd943 6070 libs optional libsgx-qe3-logic_1.14.100.3-focal1_amd64.buildinfo
+ ffbd23f5a8e58686de6d2473826a8d63 13420 libs optional libsgx-qe3-logic_1.14.100.3-focal1_amd64.deb

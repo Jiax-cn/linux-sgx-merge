@@ -1,8 +1,8 @@
 ../qv_collateral_provider.o: ../qv_collateral_provider.cpp \
  ../inc/qv_collateral_provider.h ../inc/sgx_default_qcnl_wrapper.h \
  ../../quote_wrapper/common/inc/sgx_ql_lib_common.h \
- /opt/merge/sgxsdk/include/sgx_key.h \
- /opt/merge/sgxsdk/include/sgx_attributes.h ../inc/network_wrapper.h \
+ /opt/intel/sgxsdk/include/sgx_key.h \
+ /opt/intel/sgxsdk/include/sgx_attributes.h ../inc/network_wrapper.h \
  ../inc/pccs_response_object.h \
  ../../../QuoteVerification/QVL/Src/ThirdParty/rapidjson/include/rapidjson/document.h \
  ../../../QuoteVerification/QVL/Src/ThirdParty/rapidjson/include/rapidjson/reader.h \

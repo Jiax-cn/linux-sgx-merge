@@ -18,11 +18,11 @@ Package-List:
  libsgx-aesm-quote-ex-plugin deb utils optional arch=amd64
  sgx-aesm-service deb utils optional arch=amd64
 Checksums-Sha1:
- 4edb915ee7a0dbe3c8b88faecdfd08ee1f5c1e8e 11232684 sgx-aesm-service_2.17.101.1.orig.tar.gz
- 7ced5162ed7d372e17c13aee4ff3bae590842740 21700 sgx-aesm-service_2.17.101.1-focal1.debian.tar.xz
+ a507509564287462063ffc2568d39d8af5213047 11233806 sgx-aesm-service_2.17.101.1.orig.tar.gz
+ 05c75360f98f0bd446a482ad0a4c1e80cbb1cd2c 21704 sgx-aesm-service_2.17.101.1-focal1.debian.tar.xz
 Checksums-Sha256:
- 49be5eb9a782226b6fc768840593a62ada0fbe5d30b07b1fb056004da747cfe0 11232684 sgx-aesm-service_2.17.101.1.orig.tar.gz
- 95b8418b45500bea3e43ed18d6e952b78146bdd4caef51f91e3423f784231eb3 21700 sgx-aesm-service_2.17.101.1-focal1.debian.tar.xz
+ 50ae86f47a994713a7b02d3e5b16e792a4e82636500253b75e9c6e6248800f5b 11233806 sgx-aesm-service_2.17.101.1.orig.tar.gz
+ e6f3c0bb8c8d7053ba545c0fcc29f2da5aa41e0ad3fb28c2e55ea4bff78422ba 21704 sgx-aesm-service_2.17.101.1-focal1.debian.tar.xz
 Files:
- 85e73cab76ae2f9ba04b4179f6fff647 11232684 sgx-aesm-service_2.17.101.1.orig.tar.gz
- 2b72de68598003856be70854de4f4177 21700 sgx-aesm-service_2.17.101.1-focal1.debian.tar.xz
+ 93142b156bad49b91b8a52eb39866f7a 11233806 sgx-aesm-service_2.17.101.1.orig.tar.gz
+ d864f57c70e81fe5ff4aa1ddee31df31 21704 sgx-aesm-service_2.17.101.1-focal1.debian.tar.xz

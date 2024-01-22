@@ -1,8 +1,8 @@
 ../sgx_default_qcnl_wrapper.o: ../sgx_default_qcnl_wrapper.cpp \
  ../inc/sgx_default_qcnl_wrapper.h \
  ../../quote_wrapper/common/inc/sgx_ql_lib_common.h \
- /opt/merge/sgxsdk/include/sgx_key.h \
- /opt/merge/sgxsdk/include/sgx_attributes.h ../inc/pckcert_provider.h \
+ /opt/intel/sgxsdk/include/sgx_key.h \
+ /opt/intel/sgxsdk/include/sgx_attributes.h ../inc/pckcert_provider.h \
  ../inc/qcnl_config.h \
  ../../../QuoteVerification/QVL/Src/ThirdParty/rapidjson/include/rapidjson/document.h \
  ../../../QuoteVerification/QVL/Src/ThirdParty/rapidjson/include/rapidjson/reader.h \
@@ -30,5 +30,5 @@
  ../../../QuoteVerification/QVL/Src/ThirdParty/rapidjson/include/rapidjson/internal/../stream.h \
  ../../../QuoteVerification/QVL/Src/ThirdParty/rapidjson/include/rapidjson/internal/../rapidjson.h \
  ../inc/qcnl_def.h ../inc/qv_collateral_provider.h \
- /opt/merge/sgxsdk/include/sgx_pce.h /opt/merge/sgxsdk/include/sgx_key.h \
- /opt/merge/sgxsdk/include/sgx_report.h ../inc/qcnl_util.h
+ /opt/intel/sgxsdk/include/sgx_pce.h /opt/intel/sgxsdk/include/sgx_key.h \
+ /opt/intel/sgxsdk/include/sgx_report.h ../inc/qcnl_util.h

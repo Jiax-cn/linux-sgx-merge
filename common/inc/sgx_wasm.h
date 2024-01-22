@@ -8,7 +8,8 @@ extern "C" {
 #include <stdint.h>
 #include "sgx_urts.h"
 
-#define MAX_MAP_ENCL_MR_SIZE  (64*sizeof(uint8_t))
+// #define MAX_MAP_ENCL_MR_SIZE  (64*sizeof(uint8_t))
+#define MAX_MAP_ENCL_MR_SIZE  0
 
 /* SGX Begin */
 #define SGX_WASM_SEC_NAME ".sgx_wasm"
@@ -19,7 +20,6 @@ extern "C" {
 #define SGX_WASM_VM_MR_SEC_SIZE 4096
 // must be a multiple of 4096 (page size)
 // 4096 is large enough to store the measurement
-
 
 typedef struct _sgx_wasm_t {
     uint64_t size;

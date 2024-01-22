@@ -11,11 +11,11 @@ Package-List:
  libsgx-tdx-logic deb libs optional arch=amd64
  libsgx-tdx-logic-dev deb devel optional arch=amd64
 Checksums-Sha1:
- 7803dbdefa18efe90afbfee7dfdf5bc7194a6af5 65783 libsgx-tdx-logic_1.14.100.3.orig.tar.gz
- 1db0600df7e3b8de01e7262e5e6d76a7eb446b6b 2320 libsgx-tdx-logic_1.14.100.3-focal1.debian.tar.xz
+ f662c8dcc91085e755af82181579f13e1d4e3add 65786 libsgx-tdx-logic_1.14.100.3.orig.tar.gz
+ 51d2b5a1dd271a4d2501bc2c96089bde28ec95af 2316 libsgx-tdx-logic_1.14.100.3-focal1.debian.tar.xz
 Checksums-Sha256:
- ca919beb852bb39a7a6ba5f6c53b36c1d8eabe72b8eb6ce0e5df509c3cbb59e8 65783 libsgx-tdx-logic_1.14.100.3.orig.tar.gz
- beb8ede0543572ed3cf7d2ead2be8fdde22519c6c7dae007c0d7a2a0be564105 2320 libsgx-tdx-logic_1.14.100.3-focal1.debian.tar.xz
+ 4c411a154a7bc9d276d58f753fabc9d87c73f9248817381566aff951b3a19bcb 65786 libsgx-tdx-logic_1.14.100.3.orig.tar.gz
+ 94ddbf415035dc33dd37364255ef705c9c4839f71dbb4653d42cda0c7d82d8e7 2316 libsgx-tdx-logic_1.14.100.3-focal1.debian.tar.xz
 Files:
- 649d0f3d111dada10b2ecf9b89458700 65783 libsgx-tdx-logic_1.14.100.3.orig.tar.gz
- 943343aa12f65557b8e1df77005a2e7a 2320 libsgx-tdx-logic_1.14.100.3-focal1.debian.tar.xz
+ 409b47f2f2c6a98987ed6aa397fb9e11 65786 libsgx-tdx-logic_1.14.100.3.orig.tar.gz
+ a50b5c7cffe531fa1b299819a557fd86 2316 libsgx-tdx-logic_1.14.100.3-focal1.debian.tar.xz

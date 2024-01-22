@@ -11,11 +11,11 @@ Package-List:
  libsgx-ra-uefi deb libs optional arch=amd64
  libsgx-ra-uefi-dev deb devel optional arch=amd64
 Checksums-Sha1:
- c4ebeb40cfd05f5df69cd1e5066d2c1ee84c6df7 20297 libsgx-ra-uefi_1.14.100.3.orig.tar.gz
- 08bcc04520b593b434c7201fff038fbffa7b3d65 3128 libsgx-ra-uefi_1.14.100.3-focal1.debian.tar.xz
+ 580e129c6348fa99a692d5bd5a4c686f388e0dd5 20287 libsgx-ra-uefi_1.14.100.3.orig.tar.gz
+ 643f88df75beddcf701dcb5ac95bd9a85b485ce8 3128 libsgx-ra-uefi_1.14.100.3-focal1.debian.tar.xz
 Checksums-Sha256:
- 0bb792b5f5347af3cdc1deadc37c94a0f2ad7f742bfe11c45520be650c2c97f7 20297 libsgx-ra-uefi_1.14.100.3.orig.tar.gz
- 4ad9a81876fbbe4427bfdd78d416f0e8ebcb4b5760af8f32b740be99a67e94c6 3128 libsgx-ra-uefi_1.14.100.3-focal1.debian.tar.xz
+ 59ae3129069369d71d4dc429a726ff1325fb8019186be348103d437c50fae53c 20287 libsgx-ra-uefi_1.14.100.3.orig.tar.gz
+ 57c48fa9c5be6348852453f5a3a3571479916077b8c41ab1e0603e257e19efed 3128 libsgx-ra-uefi_1.14.100.3-focal1.debian.tar.xz
 Files:
- 99e48df575c295aff6a422c64bf7c674 20297 libsgx-ra-uefi_1.14.100.3.orig.tar.gz
- 44568c5d91f4f58aaa675da8efc2cd82 3128 libsgx-ra-uefi_1.14.100.3-focal1.debian.tar.xz
+ 62b5c4c78323b35fa54b9c252e754c8c 20287 libsgx-ra-uefi_1.14.100.3.orig.tar.gz
+ c43d77a96895e755bbd11359425b2fa3 3128 libsgx-ra-uefi_1.14.100.3-focal1.debian.tar.xz

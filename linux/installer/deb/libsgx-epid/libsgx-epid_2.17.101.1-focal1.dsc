@@ -11,11 +11,11 @@ Package-List:
  libsgx-epid deb libs optional arch=amd64
  libsgx-epid-dev deb devel optional arch=amd64
 Checksums-Sha1:
- 073e3d7789924320065cef8d6fc54b207dc89415 126218 libsgx-epid_2.17.101.1.orig.tar.gz
- a4c16631b88b7995b0468750d2cdb38c0e878150 20540 libsgx-epid_2.17.101.1-focal1.debian.tar.xz
+ 3caacd1ef73c0826795fc88a28c2d2f4d5333a07 126212 libsgx-epid_2.17.101.1.orig.tar.gz
+ 6841a13b9568ac7686a2168d88c3ec76f1ff6a75 20544 libsgx-epid_2.17.101.1-focal1.debian.tar.xz
 Checksums-Sha256:
- ead4407cdc32b56061ae58348de36dcf85b8d8ceeaf31db43c0cc901e5a5ef43 126218 libsgx-epid_2.17.101.1.orig.tar.gz
- ef981ca5306646b312107f8ad7d7d3a80c3581197758a1b1285bc852b95c697c 20540 libsgx-epid_2.17.101.1-focal1.debian.tar.xz
+ 65024bdedb5fdc79e97846e7ec26bfe5e1decf04dfb58fe5a57d8de4221f4c39 126212 libsgx-epid_2.17.101.1.orig.tar.gz
+ 2bf4c77b17bbe50f3dcccb3d2baff79b32bad2ed1a32426a194a001ea903a9a2 20544 libsgx-epid_2.17.101.1-focal1.debian.tar.xz
 Files:
- eecbc3966e1ff332f554175baf0b77b5 126218 libsgx-epid_2.17.101.1.orig.tar.gz
- 7c62a17261713c96a644715c3ada4a6e 20540 libsgx-epid_2.17.101.1-focal1.debian.tar.xz
+ 21f57379366720e6052c7251f0652a0d 126212 libsgx-epid_2.17.101.1.orig.tar.gz
+ 3af04672c31f19427db68f9777b470ba 20544 libsgx-epid_2.17.101.1-focal1.debian.tar.xz

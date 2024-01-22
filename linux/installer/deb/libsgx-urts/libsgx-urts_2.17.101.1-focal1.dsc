@@ -10,11 +10,11 @@ Build-Depends: debhelper (>= 8.0.0)
 Package-List:
  libsgx-urts deb libs optional arch=amd64
 Checksums-Sha1:
- 7feb753df7cae5044d3fc2a429562e343198bb22 91347 libsgx-urts_2.17.101.1.orig.tar.gz
- 77071c18392031555c388557c1d030333593c2a2 20504 libsgx-urts_2.17.101.1-focal1.debian.tar.xz
+ daae9cac29d6f27f64da4326b14899a3d1e59679 91637 libsgx-urts_2.17.101.1.orig.tar.gz
+ 7ae3594fa833386740259a6ca07d339260fc24f1 20496 libsgx-urts_2.17.101.1-focal1.debian.tar.xz
 Checksums-Sha256:
- c5d0fa0d22d2f2e27a1c9ff9de762db822b231d33e77c23b42ee925d5e1021c8 91347 libsgx-urts_2.17.101.1.orig.tar.gz
- 32706c3836feb3f471848e5b8fbda2bf232c949d654e055be9813dac85665caf 20504 libsgx-urts_2.17.101.1-focal1.debian.tar.xz
+ dfe3d2fdfc1a82b5965573eb5da21059c8457a884d49f387e41e039f05d8efd0 91637 libsgx-urts_2.17.101.1.orig.tar.gz
+ 84bcb9e61a1622235ff9af6b3d6296d53211518d4440862401627f5e3dacfa2f 20496 libsgx-urts_2.17.101.1-focal1.debian.tar.xz
 Files:
- 089561c82f166c7a80609a044ebf30fe 91347 libsgx-urts_2.17.101.1.orig.tar.gz
- ee5ae2be2d22938f80129d6c931eb246 20504 libsgx-urts_2.17.101.1-focal1.debian.tar.xz
+ 28a39cdc2fc8d5a1432bca85174d9e92 91637 libsgx-urts_2.17.101.1.orig.tar.gz
+ f13c4b3cafd6b5a14401c492a3e95b48 20496 libsgx-urts_2.17.101.1-focal1.debian.tar.xz

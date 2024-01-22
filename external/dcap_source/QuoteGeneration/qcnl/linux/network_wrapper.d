@@ -1,8 +1,8 @@
 network_wrapper.o: network_wrapper.cpp ../inc/network_wrapper.h \
  ../inc/sgx_default_qcnl_wrapper.h \
  ../../quote_wrapper/common/inc/sgx_ql_lib_common.h \
- /opt/merge/sgxsdk/include/sgx_key.h \
- /opt/merge/sgxsdk/include/sgx_attributes.h ../inc/qcnl_config.h \
+ /opt/intel/sgxsdk/include/sgx_key.h \
+ /opt/intel/sgxsdk/include/sgx_attributes.h ../inc/qcnl_config.h \
  ../../../QuoteVerification/QVL/Src/ThirdParty/rapidjson/include/rapidjson/document.h \
  ../../../QuoteVerification/QVL/Src/ThirdParty/rapidjson/include/rapidjson/reader.h \
  ../../../QuoteVerification/QVL/Src/ThirdParty/rapidjson/include/rapidjson/allocators.h \

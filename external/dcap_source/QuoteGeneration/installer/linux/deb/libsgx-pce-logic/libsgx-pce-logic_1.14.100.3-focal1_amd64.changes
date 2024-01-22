@@ -18,23 +18,23 @@ Changes:
    * Provide the Quote Generation Library and sample project
    * Provide the sample project for Platform Provider Library
 Checksums-Sha1:
- 3b21e8b23cf4f559946e54804241139aa9bed4fb 972 libsgx-pce-logic_1.14.100.3-focal1.dsc
- 6bf89af741a6957b5ea16d4e3c01513d5e46625c 35154 libsgx-pce-logic_1.14.100.3.orig.tar.gz
- f97ffb3735241aa113f8d92e1f428bfe933370f7 2264 libsgx-pce-logic_1.14.100.3-focal1.debian.tar.xz
- 71ff1f5939680ceaf8aa8ac2de631ebd005680d8 27756 libsgx-pce-logic-dbgsym_1.14.100.3-focal1_amd64.ddeb
- b07dc94b1a923693bb086b64938db2c6fef9a15e 6094 libsgx-pce-logic_1.14.100.3-focal1_amd64.buildinfo
- ecda24c1b060495f6b7c76e8000171e15100d01b 8380 libsgx-pce-logic_1.14.100.3-focal1_amd64.deb
+ 42470f21b3832bf0e6a6d478b02ba07868aed9dd 972 libsgx-pce-logic_1.14.100.3-focal1.dsc
+ fb14d329d164124af2dbedfb7fdefd1a6619419c 35152 libsgx-pce-logic_1.14.100.3.orig.tar.gz
+ d29e3c980c64cae6ee16016f44c7b10a869b7ab9 2264 libsgx-pce-logic_1.14.100.3-focal1.debian.tar.xz
+ 4f8b4c3aed2b652bce29b3fd7c4a42eaecb314b8 27756 libsgx-pce-logic-dbgsym_1.14.100.3-focal1_amd64.ddeb
+ 8899a70a989eec815f6cdc513313d14ebc38f44b 6067 libsgx-pce-logic_1.14.100.3-focal1_amd64.buildinfo
+ 2ae7e7f0ae7bcfdf34c23d0c7cdb489fae031150 8388 libsgx-pce-logic_1.14.100.3-focal1_amd64.deb
 Checksums-Sha256:
- de7bd2d15a29b270517a1a81177ab6347e8ccc37458d204559f0bccb1cff3202 972 libsgx-pce-logic_1.14.100.3-focal1.dsc
- fccec4d774b97e3b878c57bb25e9cc9b0f436ba7b8d3ca633b8af221cea7dfa0 35154 libsgx-pce-logic_1.14.100.3.orig.tar.gz
- 850cfbd651b53f9b5e9d33e914c39bba163dc1ff770f7e5a776145db1e156daa 2264 libsgx-pce-logic_1.14.100.3-focal1.debian.tar.xz
- 1bf8a4ffd41ac721d0cf17712f63457e2ccbdbf35185b0c63812cb22db7cebda 27756 libsgx-pce-logic-dbgsym_1.14.100.3-focal1_amd64.ddeb
- ceb0e0e6b96713b8d76b8b1db51b24833d335cea6f9808e4cac07bfffc06adb3 6094 libsgx-pce-logic_1.14.100.3-focal1_amd64.buildinfo
- 66db310fb893d9bbed656f5d61faa093138d3f4cfbf1e18b892f19b1f94ea2d1 8380 libsgx-pce-logic_1.14.100.3-focal1_amd64.deb
+ b25b82b126c54d8f8a6bf728cd5c87434370a4494e58ce46ab2db0c8e8d699cd 972 libsgx-pce-logic_1.14.100.3-focal1.dsc
+ 2b4e222ff1df74b7b5aad5528ba9020511250854dd38c1f103bc23a4068f90dc 35152 libsgx-pce-logic_1.14.100.3.orig.tar.gz
+ 36bac4530d29fc965f3778420758b01735000fa01601545735553a626756b587 2264 libsgx-pce-logic_1.14.100.3-focal1.debian.tar.xz
+ 177a68e99aa1ffb21ac7d45b360a6dedf93df1aad62b9ea960c6754e2d1f0646 27756 libsgx-pce-logic-dbgsym_1.14.100.3-focal1_amd64.ddeb
+ 4e93ac5cadf057e0745e8498cad64ad0ce8c2df8b8daa912fb9b24eb87744209 6067 libsgx-pce-logic_1.14.100.3-focal1_amd64.buildinfo
+ f89569b9553478a7e58d9ab9865bcbcb32847dd7a0268e77b08b8fef85f74da1 8388 libsgx-pce-logic_1.14.100.3-focal1_amd64.deb
 Files:
- 352e35003ed9f3f2de67d65cc53bc22d 972 libs optional libsgx-pce-logic_1.14.100.3-focal1.dsc
- 573c69d3467b3cb895e32af73120d1c1 35154 libs optional libsgx-pce-logic_1.14.100.3.orig.tar.gz
- a1c4f9cbea8bef15e2128401d2e38fef 2264 libs optional libsgx-pce-logic_1.14.100.3-focal1.debian.tar.xz
- 55a9304e5f5ce7b84c8ef99dc203e824 27756 debug optional libsgx-pce-logic-dbgsym_1.14.100.3-focal1_amd64.ddeb
- a684696dc40d64e26c838b4c65ea3a3c 6094 libs optional libsgx-pce-logic_1.14.100.3-focal1_amd64.buildinfo
- aa432e5bb7b198109d053f454d0737a9 8380 libs optional libsgx-pce-logic_1.14.100.3-focal1_amd64.deb
+ db1cafaa83a5534653f7b9e0bee1d6da 972 libs optional libsgx-pce-logic_1.14.100.3-focal1.dsc
+ dd1e74e23e63c38ecef39fd48564e503 35152 libs optional libsgx-pce-logic_1.14.100.3.orig.tar.gz
+ e215a542646ac43685c3875cd839b1f2 2264 libs optional libsgx-pce-logic_1.14.100.3-focal1.debian.tar.xz
+ baa752ff41dbb5e037999f1e69f00639 27756 debug optional libsgx-pce-logic-dbgsym_1.14.100.3-focal1_amd64.ddeb
+ 5114e7a6e003dc6ed5fe154da018f0e4 6067 libs optional libsgx-pce-logic_1.14.100.3-focal1_amd64.buildinfo
+ e2c1ebe171516163ef7abfb1f11792d4 8388 libs optional libsgx-pce-logic_1.14.100.3-focal1_amd64.deb

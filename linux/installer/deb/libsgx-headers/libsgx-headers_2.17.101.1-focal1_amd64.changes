@@ -15,20 +15,20 @@ Changes:
  .
    * Initial Release
 Checksums-Sha1:
- 19919b582b7b29269e5a1b0f8cbfbaf704447743 933 libsgx-headers_2.17.101.1-focal1.dsc
- d477388b0ff2c7d532d8f38b77a66b28991f779b 37455 libsgx-headers_2.17.101.1.orig.tar.gz
- 4cb6c23143cc86c89dc9513d130f694e3099db8a 20420 libsgx-headers_2.17.101.1-focal1.debian.tar.xz
- 6cac4c9fa4756d44bf62f8c6b2af6d84c063abcb 5761 libsgx-headers_2.17.101.1-focal1_amd64.buildinfo
- 535493ad8d6e321f5778153af0667ff59e0097e5 33448 libsgx-headers_2.17.101.1-focal1_amd64.deb
+ 2b1a11b64aea4525d92fa25d94ec7110ea3cdd22 933 libsgx-headers_2.17.101.1-focal1.dsc
+ 67610a03f11676689036128785d4cf98d70bc855 37456 libsgx-headers_2.17.101.1.orig.tar.gz
+ 6fab20f096e5e7934028e7a4a1e54d88eaf475fc 20432 libsgx-headers_2.17.101.1-focal1.debian.tar.xz
+ c062e0b07619b55e0704130a2fe38b76b48ba15d 5734 libsgx-headers_2.17.101.1-focal1_amd64.buildinfo
+ 53d3dafd58cc6e4049d4831d016295384b5b7508 33444 libsgx-headers_2.17.101.1-focal1_amd64.deb
 Checksums-Sha256:
- 1e9305fadc2862c3d6c6de0815c5f0d5233f8ca47620e2f5da798c3276f2b0ae 933 libsgx-headers_2.17.101.1-focal1.dsc
- f6819483d45f1a4de5e17164175b9486c2cd414555365f60a2489f00291f0404 37455 libsgx-headers_2.17.101.1.orig.tar.gz
- 51eebf45a3e716c3c8acec5daec3243a08d8cc9b858fc788b7f36c9dffd1c922 20420 libsgx-headers_2.17.101.1-focal1.debian.tar.xz
- 0f90e8423ae62a8443629370803772c49df0a604345ae23f4d5d83410d9f239f 5761 libsgx-headers_2.17.101.1-focal1_amd64.buildinfo
- 992adf69a4f0461a907e23b365f3da4b48c6443816bf837b53638b229c3bc7b6 33448 libsgx-headers_2.17.101.1-focal1_amd64.deb
+ da360622414f983015ec509370df94a834414eb1ce4a07178f32449722a78074 933 libsgx-headers_2.17.101.1-focal1.dsc
+ 85ab304e01bf92868141a44ecb4b81a8361da4c501a68c0bd1ca46090e882ac4 37456 libsgx-headers_2.17.101.1.orig.tar.gz
+ 75673131217f093675575ca68af6facc42e3eb65fbea93813d2254bbd6106283 20432 libsgx-headers_2.17.101.1-focal1.debian.tar.xz
+ 96db2fd16b1054d78e6877a910803821f2cbdce431b8837b4b5e8aed3524bc03 5734 libsgx-headers_2.17.101.1-focal1_amd64.buildinfo
+ b69919686f584f34c271d88c11542ab18a4ce52180b0ee008c2be5762963f85a 33444 libsgx-headers_2.17.101.1-focal1_amd64.deb
 Files:
- 6a19a49875e119e76fca80881a6db856 933 devel optional libsgx-headers_2.17.101.1-focal1.dsc
- c94dcff347cb1217706cb18a3f218e34 37455 devel optional libsgx-headers_2.17.101.1.orig.tar.gz
- 6bfbc7cb4037b3d1ec25c5650c29f247 20420 devel optional libsgx-headers_2.17.101.1-focal1.debian.tar.xz
- b01491820af7ccd405350c93f2de4c7e 5761 devel optional libsgx-headers_2.17.101.1-focal1_amd64.buildinfo
- 16882040f1a536674541a67829ff2bba 33448 devel optional libsgx-headers_2.17.101.1-focal1_amd64.deb
+ 49619061c0b3b7807763274526db494f 933 devel optional libsgx-headers_2.17.101.1-focal1.dsc
+ 009f062f1fd0806cd58b927785a006e2 37456 devel optional libsgx-headers_2.17.101.1.orig.tar.gz
+ b781df22d959e66399b0e0ffdcae6be5 20432 devel optional libsgx-headers_2.17.101.1-focal1.debian.tar.xz
+ a3bc5b126899963d70a4de0ff34e1cbc 5734 devel optional libsgx-headers_2.17.101.1-focal1_amd64.buildinfo
+ 384842836b9f72c659673a38452c397a 33444 devel optional libsgx-headers_2.17.101.1-focal1_amd64.deb

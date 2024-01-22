@@ -4,20 +4,20 @@ Binary: libsgx-qe3-logic
 Architecture: amd64 source
 Version: 1.14.100.3-focal1
 Checksums-Md5:
- 1a6916e0867b611462d8b05bc520f0bf 972 libsgx-qe3-logic_1.14.100.3-focal1.dsc
- a4c1def4a0bb7249e6f6595bc8245dc4 52780 libsgx-qe3-logic-dbgsym_1.14.100.3-focal1_amd64.ddeb
- 2c953ce8757c22019770fe1619648ba4 13420 libsgx-qe3-logic_1.14.100.3-focal1_amd64.deb
+ c0f4a6e7ed2dc28a3e30a6cf0e55d2cc 972 libsgx-qe3-logic_1.14.100.3-focal1.dsc
+ a82496ce92a74c12372fe330a62090d7 52792 libsgx-qe3-logic-dbgsym_1.14.100.3-focal1_amd64.ddeb
+ ffbd23f5a8e58686de6d2473826a8d63 13420 libsgx-qe3-logic_1.14.100.3-focal1_amd64.deb
 Checksums-Sha1:
- 7a19cca12a79f41c8c9496589752036f896a9fde 972 libsgx-qe3-logic_1.14.100.3-focal1.dsc
- eb046d083af202a0b250ac9478574b0eca15248d 52780 libsgx-qe3-logic-dbgsym_1.14.100.3-focal1_amd64.ddeb
- 215ca7a15abf9a32978577911f99da71af80f84c 13420 libsgx-qe3-logic_1.14.100.3-focal1_amd64.deb
+ ecd073b09ad701eb9b556d17cac16dae9bb1d9a0 972 libsgx-qe3-logic_1.14.100.3-focal1.dsc
+ a60ab4ba9f86f3b6c1d9dd71b377ce09717f5f13 52792 libsgx-qe3-logic-dbgsym_1.14.100.3-focal1_amd64.ddeb
+ f3b86bd5165ceca594a17d37eafe5f08388b38a9 13420 libsgx-qe3-logic_1.14.100.3-focal1_amd64.deb
 Checksums-Sha256:
- 96f0665a2450df2b5f11b57c1f9aca63ed16461a134caf2b6da7e5be584cb04c 972 libsgx-qe3-logic_1.14.100.3-focal1.dsc
- 4274b4def63604fe73aa816d89a54e313ce309ec28f16f250f4fcbef5a9d652a 52780 libsgx-qe3-logic-dbgsym_1.14.100.3-focal1_amd64.ddeb
- f21f097517b4f2ffe2a3f64dd08c51965af20e9b4fcbfb2e05a87a89cf046adb 13420 libsgx-qe3-logic_1.14.100.3-focal1_amd64.deb
+ 12ec132ea750cf773bca7fbdf096ee11120d7b34a5d491f4d36765a03c05a7fc 972 libsgx-qe3-logic_1.14.100.3-focal1.dsc
+ 26deeeeb336f3c2b2eee062a2d3269f206f2d8d48b1af6124f27766478b6edfe 52792 libsgx-qe3-logic-dbgsym_1.14.100.3-focal1_amd64.ddeb
+ a37b535e113fe9e02a80decf31cbd0dcc06c08260537bbbf79923747bae734c7 13420 libsgx-qe3-logic_1.14.100.3-focal1_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Tue, 11 Apr 2023 14:00:41 +0000
+Build-Date: Sat, 30 Dec 2023 09:15:42 +0000
 Build-Tainted-By:
  merged-usr-via-symlinks
  usr-local-has-includes
@@ -171,6 +171,6 @@ Installed-Build-Depends:
 Environment:
  DEB_BUILD_OPTIONS="parallel=8"
  LANG="en_US.UTF-8"
- LD_LIBRARY_PATH="/opt/intel/sgxsdk/sdk_libs:/opt/intel/sgxsdk/sdk_libs:/opt/intel/sgxsdk/sdk_libs:/opt/merge/sgxsdk/sdk_libs"
+ LD_LIBRARY_PATH="/opt/intel/sgxsdk/sdk_libs:/opt/intel/sgxsdk/sdk_libs:/opt/intel/sgxsdk/sdk_libs"
  MAKEFLAGS="w"
- SOURCE_DATE_EPOCH="1681221638"
+ SOURCE_DATE_EPOCH="1703927740"

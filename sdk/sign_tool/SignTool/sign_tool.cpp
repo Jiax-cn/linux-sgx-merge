@@ -151,7 +151,7 @@ static bool measure_enclave(
     uint8_t *hash, const char *dllpath, const xml_parameter_t *parameter, uint32_t option_flag_bits, 
     metadata_t *metadata, uint64_t *meta_offset, 
     uint64_t &wasm_rva, uint64_t &wasm_offset,
-    uint64_t &wasm_vm_mr_offset, 
+    uint64_t &wasm_vm_mr_rva, uint64_t &wasm_vm_mr_offset, 
     sgx_wasm_vm_mr_t *wasm_vm_mr = NULL,
     bool ignore_wasm_sec_sign = false
 ) {
@@ -197,10 +197,12 @@ static bool measure_enclave(
     const Section* wasm_vm_mr_section = parser->get_wasm_vm_mr_section();
     if (wasm_vm_mr_section != NULL)
     {
+        wasm_vm_mr_rva = wasm_vm_mr_section->get_rva();
         wasm_vm_mr_offset = wasm_vm_mr_section->get_offset();
     }
 
     parser->set_ignore_wasm_sec_sign(ignore_wasm_sec_sign);
+    parser->set_ignore_wasm_vm_mr_sec_sign(ignore_wasm_sec_sign);
 
     if(parser->has_init_section() && IGNORE_INIT_SEC_ERROR(option_flag_bits) == false)
     {
@@ -666,7 +668,7 @@ static bool cmdline_parse(unsigned int argc, char *argv[], int *mode, const char
         {"-cssfile", NULL, PAR_OPTIONAL},
         {"-wasmfile", NULL, PAR_REQUIRED},
         {"-map_encl_mr_in", NULL, PAR_REQUIRED},
-        {"-wasm_vm_mr_in", NULL, PAR_INVALID}, 
+        {"-wasm_vm_mr_in", NULL, PAR_REQUIRED}, 
         {"-wasm_vm_mr_out", NULL, PAR_INVALID}};
     param_struct_t params_gen_wasm_vm_mr[] = {
         {"-enclave", NULL, PAR_REQUIRED},
@@ -1403,6 +1405,7 @@ int main(int argc, char* argv[])
     uint64_t meta_offset = 0;
     uint64_t wasm_rva = 0;
     uint64_t wasm_offset = 0;
+    uint64_t wasm_vm_mr_rva = 0;
     uint64_t wasm_vm_mr_offset = 0;
     uint32_t option_flag_bits = 0;
     RSA *rsa = NULL;
@@ -1460,7 +1463,7 @@ int main(int argc, char* argv[])
                 enclave_hash, path[DLL], parameter, option_flag_bits, 
                 metadata, &meta_offset, 
                 wasm_rva, wasm_offset, 
-                wasm_vm_mr_offset, 
+                wasm_vm_mr_rva, wasm_vm_mr_offset, 
                 &wasm_vm_mr, 
                 true
             ) == false
@@ -1468,7 +1471,7 @@ int main(int argc, char* argv[])
             se_trace(SE_TRACE_ERROR, OVERALL_ERROR);
             goto clear_return;
         }
-        wasm_vm_mr.offset = wasm_rva;
+        wasm_vm_mr.offset = wasm_vm_mr_rva;
         for (uint64_t i = 0; i < sizeof(wasm_vm_mr); i++) 
         {
             printf("0x%02x, ", reinterpret_cast<uint8_t*>(&wasm_vm_mr)[i]);
@@ -1494,90 +1497,89 @@ int main(int argc, char* argv[])
     }
 
     if (mode == SIGNWASM) {
-        uint64_t wasm_file_size = get_file_size(path[WASMFILE]);
-        printf("\n Reading %lu bytes from file %s . \n", wasm_file_size, path[WASMFILE]);
-        uint64_t wasm_sec_size = ((MAX_MAP_ENCL_MR_SIZE + sizeof(uint64_t) + wasm_file_size - 1) / 4096 + 1) * 4096;
+        // copy from sign wasm vm mr part
+        
+        uint32_t wasm_vm_mr_size = (uint32_t)get_file_size(path[WASM_VM_MR_IN]);
+
+        if (wasm_vm_mr_size > SGX_WASM_VM_MR_SEC_SIZE) {
+            se_trace(SE_TRACE_ERROR, OVERALL_ERROR);
+            goto clear_return;
+        }
+
+        sgx_wasm_vm_mr_t *wasm_vm_mr = (sgx_wasm_vm_mr_t *)malloc(wasm_vm_mr_size);
+        if (wasm_vm_mr == NULL)
+        {
+            se_trace(SE_TRACE_ERROR, OVERALL_ERROR);
+            goto clear_return;
+        }
+        memset(wasm_vm_mr, 0, wasm_vm_mr_size);
+
+        if(read_file_to_buf(path[WASM_VM_MR_IN], (uint8_t *)wasm_vm_mr, wasm_vm_mr_size) == false)
+        {
+            se_trace(SE_TRACE_ERROR, READ_FILE_ERROR, path[UNSIGNED]);
+            delete [] wasm_vm_mr;
+            goto clear_return;
+        }
+
+        uint8_t *wasm_sec = NULL;
+        uint32_t wasm_file_size = (uint32_t)get_file_size(path[WASMFILE]);
+        uint32_t wasm_sec_size = ((MAX_MAP_ENCL_MR_SIZE + (uint32_t)sizeof(wasm_file_size) + wasm_file_size - 1) / 4096 + 1) * 4096;
+        
         if (wasm_sec_size > SGX_WASM_SEC_SIZE) {
             se_trace(SE_TRACE_ERROR, OVERALL_ERROR);
             goto clear_return;
         }
 
-        uint8_t *wasm_sec = (uint8_t *)malloc(wasm_sec_size);
-        memset(wasm_sec, 0, wasm_sec_size);
+        wasm_sec = (uint8_t *)malloc(wasm_sec_size);
         if (wasm_sec == NULL) {
             se_trace(SE_TRACE_ERROR, OVERALL_ERROR);
             goto clear_return;
         }
+        memset(wasm_sec, 0, wasm_sec_size);
 
-        if (read_file_to_buf(path[WASMFILE], wasm_sec, wasm_file_size) == false) {
+        if (read_file_to_buf(path[WASMFILE], wasm_sec+wasm_sec_size-wasm_file_size-sizeof(wasm_file_size), wasm_file_size) == false) {
             se_trace(SE_TRACE_ERROR, READ_FILE_ERROR, path[UNSIGNED]);
             delete []wasm_sec;
             goto clear_return;   
         }
-        memcpy(wasm_sec+wasm_sec_size-sizeof(uint64_t)-MAX_MAP_ENCL_MR_SIZE, (uint8_t *)&wasm_file_size, sizeof(uint64_t));
-        uint64_t map_encl_mr_file_size = get_file_size(path[MAP_ENCL_MR_IN]);
-        printf("\n Reading %lu bytes from file %s . \n", map_encl_mr_file_size, path[MAP_ENCL_MR_IN]);
-        if (map_encl_mr_file_size > MAX_MAP_ENCL_MR_SIZE) {
-            se_trace(SE_TRACE_ERROR, OVERALL_ERROR);
-            goto clear_return;
-        }
-
-        if (read_file_to_buf(path[MAP_ENCL_MR_IN], wasm_sec+wasm_sec_size-MAX_MAP_ENCL_MR_SIZE, map_encl_mr_file_size) == false) {
-            se_trace(SE_TRACE_ERROR, READ_FILE_ERROR, path[UNSIGNED]);
-            delete []wasm_sec;
-            goto clear_return;   
-        }
+        memcpy(wasm_sec+wasm_sec_size-sizeof(wasm_file_size), &wasm_file_size, sizeof(wasm_file_size));
 
         // Get the offset of wasm section by measure_enclave
-        if (measure_enclave(enclave_hash, path[OUTPUT], parameter, option_flag_bits, metadata, &meta_offset, wasm_rva, wasm_offset, wasm_vm_mr_offset) == false) {
+        if (measure_enclave(enclave_hash, path[OUTPUT], parameter, option_flag_bits, metadata, &meta_offset, wasm_rva, wasm_offset, wasm_vm_mr_rva, wasm_vm_mr_offset, NULL, true) == false) {
             se_trace(SE_TRACE_ERROR, OVERALL_ERROR);
             goto clear_return;
         }
-        uint64_t wasm_blob_offset = wasm_offset + (uint64_t)((SGX_WASM_SEC_SIZE - wasm_sec_size) / 4096) * 4096;
 
-        printf("\n Writing %lu to %s @ %lx . \n", wasm_sec_size, path[OUTPUT], wasm_blob_offset);
+        uint32_t wasm_blob_offset = (uint32_t)wasm_offset + ((SGX_WASM_SEC_SIZE - wasm_sec_size) / 4096) * 4096;
         if (write_data_to_file(path[OUTPUT], std::ios::in | std::ios::binary | std::ios::out, reinterpret_cast<uint8_t*>(wasm_sec), wasm_sec_size, wasm_blob_offset) == false) {
             se_trace(SE_TRACE_ERROR, OVERALL_ERROR);
             goto clear_return;
         }
 
-        // Verify the written wasm section
-        printf("\n Begin verification. \n");
-        uint8_t *wasm_sec_verify = (uint8_t *)malloc(wasm_sec_size);
-        if (read_file_to_buf(path[OUTPUT], wasm_sec_verify, wasm_sec_size, wasm_blob_offset) == false) {
-            se_trace(SE_TRACE_ERROR, READ_FILE_ERROR, path[UNSIGNED]);
-            delete []wasm_sec_verify;
+        if (write_data_to_file(path[OUTPUT], std::ios::in | std::ios::binary | std::ios::out, reinterpret_cast<uint8_t*>(wasm_vm_mr), wasm_vm_mr_size, wasm_vm_mr_offset) == false) {
+            se_trace(SE_TRACE_ERROR, OVERALL_ERROR);
             goto clear_return;
         }
-        for (uint64_t i = 0; i < 10; i++) printf("%02x ", wasm_sec_verify[i]);
-        printf("\n Reading %d from %s @ %lx .\n", 10, path[OUTPUT], wasm_blob_offset);    
     }
 
     if (mode == SIGN_WASM_VM_MR)
     {
-        uint64_t wasm_vm_mr_size = get_file_size(path[WASM_VM_MR_IN]);
-        printf("Read size %lu from file %s.\n", wasm_vm_mr_size, path[WASM_VM_MR_IN]);
+        uint32_t wasm_vm_mr_size = (uint32_t)get_file_size(path[WASM_VM_MR_IN]);
+        printf("Read size %u from file %s.\n", wasm_vm_mr_size, path[WASM_VM_MR_IN]);
         sgx_wasm_vm_mr_t *wasm_vm_mr = (sgx_wasm_vm_mr_t *)malloc(wasm_vm_mr_size);
         if (wasm_vm_mr == NULL) 
         {
             se_trace(SE_TRACE_ERROR, OVERALL_ERROR);
             goto clear_return;
         }
-        if(read_file_to_buf(path[WASM_VM_MR_IN], (uint8_t*)wasm_vm_mr, wasm_vm_mr_size) == false)
+        if(read_file_to_buf(path[WASM_VM_MR_IN], (uint8_t *)wasm_vm_mr, wasm_vm_mr_size) == false)
         {
             se_trace(SE_TRACE_ERROR, READ_FILE_ERROR, path[UNSIGNED]);
             delete [] wasm_vm_mr;
             goto clear_return;
         }
-        if (measure_enclave(
-                enclave_hash, path[OUTPUT], parameter, option_flag_bits, 
-                metadata, &meta_offset, 
-                wasm_rva, wasm_offset, 
-                wasm_vm_mr_offset, 
-                NULL, 
-                true
-            ) == false
-        ) {
+        if (measure_enclave(enclave_hash, path[OUTPUT], parameter, option_flag_bits, metadata, &meta_offset, wasm_rva, wasm_offset, wasm_vm_mr_rva, wasm_vm_mr_offset, NULL, true) == false)
+        {
             se_trace(SE_TRACE_ERROR, OVERALL_ERROR);
             goto clear_return;
         } 
@@ -1586,23 +1588,9 @@ int main(int argc, char* argv[])
             se_trace(SE_TRACE_ERROR, OVERALL_ERROR);
             goto clear_return;
         }
-        for (uint64_t i = 0; i < wasm_vm_mr_size; i++) 
-            printf("%02x", reinterpret_cast<uint8_t*>(wasm_vm_mr)[i]);
-        printf("\n");
-        printf("Begin verification...\n");
-        uint8_t* written_wasm_vm_mr = (uint8_t *)malloc(wasm_vm_mr_size);
-        if (read_file_to_buf(path[OUTPUT], written_wasm_vm_mr, wasm_vm_mr_size, wasm_vm_mr_offset) == false)
-        {
-            se_trace(SE_TRACE_ERROR, READ_FILE_ERROR, path[UNSIGNED]);
-            delete [] written_wasm_vm_mr;
-            goto clear_return;
-        }
-        for (uint64_t i = 0; i < wasm_vm_mr_size; i++) 
-            printf("%02x", written_wasm_vm_mr[i]);
-
     }
 
-    if(measure_enclave(enclave_hash, path[OUTPUT], parameter, option_flag_bits, metadata, &meta_offset, wasm_rva, wasm_offset, wasm_vm_mr_offset) == false)
+    if(measure_enclave(enclave_hash, path[OUTPUT], parameter, option_flag_bits, metadata, &meta_offset, wasm_rva, wasm_offset, wasm_vm_mr_rva, wasm_vm_mr_offset) == false)
     {
         se_trace(SE_TRACE_ERROR, OVERALL_ERROR);
         goto clear_return;

@@ -10,11 +10,11 @@ Build-Depends: debhelper (>= 8.0.0)
 Package-List:
  libsgx-uae-service deb libs optional arch=amd64
 Checksums-Sha1:
- ca03077eac3e71d178976242d32a052fcc87d23c 29984 libsgx-uae-service_2.17.101.1.orig.tar.gz
- 5901bf267be03c823dc220cc8291ef421e74589e 20452 libsgx-uae-service_2.17.101.1-focal1.debian.tar.xz
+ b4f368f68d366ee496702a8a0aac5e88038eba33 29994 libsgx-uae-service_2.17.101.1.orig.tar.gz
+ bb4b8be738bd99b3b5039d806d3c279a31f4cbd3 20452 libsgx-uae-service_2.17.101.1-focal1.debian.tar.xz
 Checksums-Sha256:
- 1c768ba31f1dcc8e0b2c510f7ba01c05c73c74cbf22786e49792d71bdb9101fe 29984 libsgx-uae-service_2.17.101.1.orig.tar.gz
- d803455ae6c636efe3a4877918d3c33df42f3bdf3dd5fceafcb3021b949f1c60 20452 libsgx-uae-service_2.17.101.1-focal1.debian.tar.xz
+ ff7641e22b8beec0c3e4098165d7bcf3b2318eb9068b643d4687e48c2a5565a5 29994 libsgx-uae-service_2.17.101.1.orig.tar.gz
+ 0c93d6a095b950cb9d6bcf0992ae85926d0056c83fc30f4123855b961f347dd6 20452 libsgx-uae-service_2.17.101.1-focal1.debian.tar.xz
 Files:
- cf6d2c06b6b3d516ce69d11695e9713d 29984 libsgx-uae-service_2.17.101.1.orig.tar.gz
- 7c12bb1303df75ba30fa00d2fe6006fe 20452 libsgx-uae-service_2.17.101.1-focal1.debian.tar.xz
+ 310eeb0cfecba80a91769903f12351e3 29994 libsgx-uae-service_2.17.101.1.orig.tar.gz
+ 4cfc8c3dd1eaf62934f50797610c0693 20452 libsgx-uae-service_2.17.101.1-focal1.debian.tar.xz

@@ -4,17 +4,17 @@ Binary: libsgx-headers
 Architecture: amd64 source
 Version: 2.17.101.1-focal1
 Checksums-Md5:
- 6a19a49875e119e76fca80881a6db856 933 libsgx-headers_2.17.101.1-focal1.dsc
- 16882040f1a536674541a67829ff2bba 33448 libsgx-headers_2.17.101.1-focal1_amd64.deb
+ 49619061c0b3b7807763274526db494f 933 libsgx-headers_2.17.101.1-focal1.dsc
+ 384842836b9f72c659673a38452c397a 33444 libsgx-headers_2.17.101.1-focal1_amd64.deb
 Checksums-Sha1:
- 19919b582b7b29269e5a1b0f8cbfbaf704447743 933 libsgx-headers_2.17.101.1-focal1.dsc
- 535493ad8d6e321f5778153af0667ff59e0097e5 33448 libsgx-headers_2.17.101.1-focal1_amd64.deb
+ 2b1a11b64aea4525d92fa25d94ec7110ea3cdd22 933 libsgx-headers_2.17.101.1-focal1.dsc
+ 53d3dafd58cc6e4049d4831d016295384b5b7508 33444 libsgx-headers_2.17.101.1-focal1_amd64.deb
 Checksums-Sha256:
- 1e9305fadc2862c3d6c6de0815c5f0d5233f8ca47620e2f5da798c3276f2b0ae 933 libsgx-headers_2.17.101.1-focal1.dsc
- 992adf69a4f0461a907e23b365f3da4b48c6443816bf837b53638b229c3bc7b6 33448 libsgx-headers_2.17.101.1-focal1_amd64.deb
+ da360622414f983015ec509370df94a834414eb1ce4a07178f32449722a78074 933 libsgx-headers_2.17.101.1-focal1.dsc
+ b69919686f584f34c271d88c11542ab18a4ce52180b0ee008c2be5762963f85a 33444 libsgx-headers_2.17.101.1-focal1_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Tue, 11 Apr 2023 14:00:05 +0000
+Build-Date: Sat, 30 Dec 2023 09:15:12 +0000
 Build-Tainted-By:
  merged-usr-via-symlinks
  usr-local-has-includes
@@ -168,6 +168,6 @@ Installed-Build-Depends:
 Environment:
  DEB_BUILD_OPTIONS="parallel=8"
  LANG="en_US.UTF-8"
- LD_LIBRARY_PATH="/opt/intel/sgxsdk/sdk_libs:/opt/intel/sgxsdk/sdk_libs:/opt/intel/sgxsdk/sdk_libs:/opt/merge/sgxsdk/sdk_libs"
+ LD_LIBRARY_PATH="/opt/intel/sgxsdk/sdk_libs:/opt/intel/sgxsdk/sdk_libs:/opt/intel/sgxsdk/sdk_libs"
  MAKEFLAGS=""
- SOURCE_DATE_EPOCH="1681221603"
+ SOURCE_DATE_EPOCH="1703927710"

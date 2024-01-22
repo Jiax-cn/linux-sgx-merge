@@ -656,7 +656,7 @@ const Section* get_max_rva_section(const std::vector<Section*> sections)
 
 ElfParser::ElfParser (const uint8_t* start_addr, uint64_t len)
     :m_start_addr(start_addr), m_len(len), m_bin_fmt(BF_UNKNOWN),
-     m_tls_section(NULL), m_wasm_section(NULL), m_ignore_wasm_sec_sign(false), m_wasm_vm_mr_section(NULL), m_metadata_offset(0), m_metadata_block_size(0)
+     m_tls_section(NULL), m_wasm_section(NULL), m_ignore_wasm_sec_sign(false), m_wasm_vm_mr_section(NULL), m_ignore_wasm_vm_mr_sec_sign(false), m_metadata_offset(0), m_metadata_block_size(0)
 {
     memset(&m_dyn_info, 0, sizeof(m_dyn_info));
 }
@@ -814,8 +814,20 @@ void ElfParser::set_ignore_wasm_sec_sign(bool sign)
     m_ignore_wasm_sec_sign = sign;
 }
 
+void ElfParser::set_ignore_wasm_vm_mr_sec_sign(bool sign)
+{
+    m_ignore_wasm_vm_mr_sec_sign = sign;
+}
+
 const Section* ElfParser::get_wasm_vm_mr_section() const
 {
+    return m_wasm_vm_mr_section;
+}
+
+const Section* ElfParser::get_wasm_vm_mr_section_ex() const
+{
+    if (m_ignore_wasm_vm_mr_sec_sign)
+        return NULL;
     return m_wasm_vm_mr_section;
 }
 

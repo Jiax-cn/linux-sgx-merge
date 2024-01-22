@@ -10,11 +10,11 @@ Build-Depends: debhelper (>= 8.0.0)
 Package-List:
  sgx-ra-service deb misc optional arch=amd64
 Checksums-Sha1:
- 9f22378219472c0fcb9ab609badd8e83037ebb19 36669 sgx-ra-service_1.14.100.3.orig.tar.gz
- 77d1e7aa2bc91af346c548ab12b72220f5399248 3716 sgx-ra-service_1.14.100.3-focal1.debian.tar.xz
+ 90117770eb903f6b356bc90133a145e5da502f91 36669 sgx-ra-service_1.14.100.3.orig.tar.gz
+ 4d4dd3f9f21fde7c141febef838111320d797586 3716 sgx-ra-service_1.14.100.3-focal1.debian.tar.xz
 Checksums-Sha256:
- b0241a3e6f5f76fde123d29fcf68927aa658dee7d22e7930caea604d5c616649 36669 sgx-ra-service_1.14.100.3.orig.tar.gz
- e783163db77a4c0ef489e368ec2a6212ff8c57b87b1ccd69f316fa4f8f2aa2a7 3716 sgx-ra-service_1.14.100.3-focal1.debian.tar.xz
+ 3a09f827f271ca61600e25f5e36af1618b68d3c1e00ee45c69f706b3afb9b5da 36669 sgx-ra-service_1.14.100.3.orig.tar.gz
+ dbab1162bf11bd221222cb53d9384159f36f3637c5b878347006918ce111a517 3716 sgx-ra-service_1.14.100.3-focal1.debian.tar.xz
 Files:
- 9648e1de1c0a107f6322616803cb5700 36669 sgx-ra-service_1.14.100.3.orig.tar.gz
- dbff2007e38e2f0c318f9f98452116d6 3716 sgx-ra-service_1.14.100.3-focal1.debian.tar.xz
+ 64884a14a293c9b7b20013827fa29663 36669 sgx-ra-service_1.14.100.3.orig.tar.gz
+ a9b6da4558979e43885e2b036e3a5840 3716 sgx-ra-service_1.14.100.3-focal1.debian.tar.xz

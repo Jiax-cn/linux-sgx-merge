@@ -10,11 +10,11 @@ Build-Depends: debhelper (>= 8.0.0)
 Package-List:
  libsgx-qe3-logic deb libs optional arch=amd64
 Checksums-Sha1:
- b37ede6b8e58f01ee8f3b640ea3602bf91d1ed0a 67247 libsgx-qe3-logic_1.14.100.3.orig.tar.gz
- aa93409eae08a4553063947fbd7e69f8edf7f039 2272 libsgx-qe3-logic_1.14.100.3-focal1.debian.tar.xz
+ 2ca685f9684c843d0ff435218bfa879612f2f08a 67249 libsgx-qe3-logic_1.14.100.3.orig.tar.gz
+ e934cf8c785595917b8949fd1c9db6326136e497 2276 libsgx-qe3-logic_1.14.100.3-focal1.debian.tar.xz
 Checksums-Sha256:
- 2df45d70cffad9b629b2630b28f334705ff346e5ad03cbc94b4165b9a4b4535f 67247 libsgx-qe3-logic_1.14.100.3.orig.tar.gz
- ae42c924b315086b0f3c4ad2ccfb2725f8cbcc1c329a4b49b9b8f3dbf1a053af 2272 libsgx-qe3-logic_1.14.100.3-focal1.debian.tar.xz
+ 8e3e08791385fd9ac23cc97639ddfb09315492cdf0063bd0f1f3793c8d06e6aa 67249 libsgx-qe3-logic_1.14.100.3.orig.tar.gz
+ 77d91fdd5cb85e265020380c7542c4df37ebe70e54a090aaf5fb84d21f74fbbc 2276 libsgx-qe3-logic_1.14.100.3-focal1.debian.tar.xz
 Files:
- 7f229785503ee7b98689255060a8e56f 67247 libsgx-qe3-logic_1.14.100.3.orig.tar.gz
- 22fc8fc4ee3aec6900d8186007620667 2272 libsgx-qe3-logic_1.14.100.3-focal1.debian.tar.xz
+ 66b401b1ca82374e762aaab37760e1e7 67249 libsgx-qe3-logic_1.14.100.3.orig.tar.gz
+ 93b80aaf3c70647fcd597f093da9adc4 2276 libsgx-qe3-logic_1.14.100.3-focal1.debian.tar.xz

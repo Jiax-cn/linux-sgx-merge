@@ -65,7 +65,9 @@ public:
     const Section* get_wasm_section() const;
     const Section* get_wasm_section_ex() const;
     const Section* get_wasm_vm_mr_section() const;
+    const Section* get_wasm_vm_mr_section_ex() const;
     void set_ignore_wasm_sec_sign(bool sign);
+    void set_ignore_wasm_vm_mr_sec_sign(bool sign);
     uint64_t get_symbol_rva(const char* name) const;
 
     bool get_reloc_bitmap(std::vector<uint8_t> &bitmap);
@@ -108,9 +110,9 @@ private:
     Section*               m_wasm_section;
     bool                   m_ignore_wasm_sec_sign;
     Section*               m_wasm_vm_mr_section;
+    bool                   m_ignore_wasm_vm_mr_sec_sign;
     uint64_t               m_metadata_offset;
     uint64_t               m_metadata_block_size;/*multiple metadata block size*/
-
     ElfW(Dyn)              m_dyn_info[DT_NUM + DT_ADDRNUM];
 
     // A map from symbol name to its RVA

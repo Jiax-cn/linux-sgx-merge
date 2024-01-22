@@ -87,6 +87,8 @@ public:
 
     // Get the WASM_VM_MR section
     virtual const Section* get_wasm_vm_mr_section() const = 0;
+    virtual const Section* get_wasm_vm_mr_section_ex() const = 0;
+    virtual void set_ignore_wasm_vm_mr_sec_sign(bool sign) = 0;
 
     virtual uint64_t get_symbol_rva(const char* name) const = 0;
 

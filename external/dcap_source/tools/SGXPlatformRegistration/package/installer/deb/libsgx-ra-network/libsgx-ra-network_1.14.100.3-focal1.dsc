@@ -11,11 +11,11 @@ Package-List:
  libsgx-ra-network deb libs optional arch=amd64
  libsgx-ra-network-dev deb devel optional arch=amd64
 Checksums-Sha1:
- 68965bf1bde9a254447773328d07cd87fd7b4218 19638 libsgx-ra-network_1.14.100.3.orig.tar.gz
- dd0c56de9a1e56ac1dc0746a97bc4f597317f627 3132 libsgx-ra-network_1.14.100.3-focal1.debian.tar.xz
+ 22e3530d55d88e1c6271b464fa7296a417714de6 19638 libsgx-ra-network_1.14.100.3.orig.tar.gz
+ 8f9edbbce4af6fe796db6ba8ed7bc1b0eb6b1950 3132 libsgx-ra-network_1.14.100.3-focal1.debian.tar.xz
 Checksums-Sha256:
- 765e211b725ac5fb9d62cd05ff586f99e7948116e987a68476c65d3ccd7d9c4d 19638 libsgx-ra-network_1.14.100.3.orig.tar.gz
- 0ea5f661cde1236ee5ca50224a233bd18a7481c50730a025f9f695adfb81df0d 3132 libsgx-ra-network_1.14.100.3-focal1.debian.tar.xz
+ 740eb4767dc759c6c50eb72a207a6cff68aa580e955cf35eae3366fefe7e6f6b 19638 libsgx-ra-network_1.14.100.3.orig.tar.gz
+ 44d79d67e0382f51fb10bd701f1e32ce87fc6dae22985dbcad4c1c9089842f14 3132 libsgx-ra-network_1.14.100.3-focal1.debian.tar.xz
 Files:
- 36c6d77e57dd473657d010050fe2c603 19638 libsgx-ra-network_1.14.100.3.orig.tar.gz
- 104e7359cccf23cb37a229cab70ec0a6 3132 libsgx-ra-network_1.14.100.3-focal1.debian.tar.xz
+ f3bd0ac5b45f377a6bd6992aeacf25bb 19638 libsgx-ra-network_1.14.100.3.orig.tar.gz
+ f1224159bb682449133640ab70ba0d88 3132 libsgx-ra-network_1.14.100.3-focal1.debian.tar.xz

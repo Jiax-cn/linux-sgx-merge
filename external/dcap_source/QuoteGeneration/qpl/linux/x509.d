@@ -1,7 +1,7 @@
 x509.o: x509.cpp ../inc/x509.h \
  ../../quote_wrapper/common/inc/sgx_ql_lib_common.h \
- /opt/merge/sgxsdk/include/sgx_key.h \
- /opt/merge/sgxsdk/include/sgx_attributes.h \
+ /opt/intel/sgxsdk/include/sgx_key.h \
+ /opt/intel/sgxsdk/include/sgx_attributes.h \
  ../../../prebuilt/openssl/inc/openssl/pem.h \
  ../../../prebuilt/openssl/inc/openssl/e_os2.h \
  ../../../prebuilt/openssl/inc/openssl/opensslconf.h \

@@ -1,8 +1,8 @@
 ../pckcert_provider.o: ../pckcert_provider.cpp ../inc/pckcert_provider.h \
  ../inc/sgx_default_qcnl_wrapper.h \
  ../../quote_wrapper/common/inc/sgx_ql_lib_common.h \
- /opt/merge/sgxsdk/include/sgx_key.h \
- /opt/merge/sgxsdk/include/sgx_attributes.h ../inc/local_cache.h \
+ /opt/intel/sgxsdk/include/sgx_key.h \
+ /opt/intel/sgxsdk/include/sgx_attributes.h ../inc/local_cache.h \
  ../inc/qcnl_config.h \
  ../../../QuoteVerification/QVL/Src/ThirdParty/rapidjson/include/rapidjson/document.h \
  ../../../QuoteVerification/QVL/Src/ThirdParty/rapidjson/include/rapidjson/reader.h \

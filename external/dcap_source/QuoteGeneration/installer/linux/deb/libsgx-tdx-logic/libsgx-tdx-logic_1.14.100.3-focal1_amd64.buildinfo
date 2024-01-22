@@ -4,23 +4,23 @@ Binary: libsgx-tdx-logic libsgx-tdx-logic-dev
 Architecture: amd64 source
 Version: 1.14.100.3-focal1
 Checksums-Md5:
- 627410af0c0861e95daaad33e7cec4ad 1041 libsgx-tdx-logic_1.14.100.3-focal1.dsc
- d8879c530c85790af1f2d3f2b41788a6 50652 libsgx-tdx-logic-dbgsym_1.14.100.3-focal1_amd64.ddeb
- 7122ccb247a5eb80ec059734d705eae7 3188 libsgx-tdx-logic-dev_1.14.100.3-focal1_amd64.deb
- 50e38d774d0c0bb28fae784eeb93cc98 13880 libsgx-tdx-logic_1.14.100.3-focal1_amd64.deb
+ 31ad4876db13f58ee8772091ffb87c47 1041 libsgx-tdx-logic_1.14.100.3-focal1.dsc
+ 00a3d480b49cd7b28b1adb89a9a04a6d 50656 libsgx-tdx-logic-dbgsym_1.14.100.3-focal1_amd64.ddeb
+ d3e7511b0658e2616c639170da83a0d3 3188 libsgx-tdx-logic-dev_1.14.100.3-focal1_amd64.deb
+ 3758dc1d6ca9dce71e07e84c01c778e0 13880 libsgx-tdx-logic_1.14.100.3-focal1_amd64.deb
 Checksums-Sha1:
- 9e0c60af1e60e54dff4410247b46f872680a48f9 1041 libsgx-tdx-logic_1.14.100.3-focal1.dsc
- 65bc35977703bdf8d5f528cdb720b9358cc0b96f 50652 libsgx-tdx-logic-dbgsym_1.14.100.3-focal1_amd64.ddeb
- 92208b4e27865f8ca7ac906f6911c95f556e57ff 3188 libsgx-tdx-logic-dev_1.14.100.3-focal1_amd64.deb
- 26c25d2c2adb1fd4a8f10fcfac9589691275e042 13880 libsgx-tdx-logic_1.14.100.3-focal1_amd64.deb
+ 0bd3ce4116917c61ab6566901c050218cba301ce 1041 libsgx-tdx-logic_1.14.100.3-focal1.dsc
+ 33d3a6d5d674f31fae3c11c837186b042fc97d56 50656 libsgx-tdx-logic-dbgsym_1.14.100.3-focal1_amd64.ddeb
+ 9301c5e8676e93a5ed7c1566696739ea3f35a4d8 3188 libsgx-tdx-logic-dev_1.14.100.3-focal1_amd64.deb
+ 4250f89289e5a640cbf549efd1ca59f9e66667c6 13880 libsgx-tdx-logic_1.14.100.3-focal1_amd64.deb
 Checksums-Sha256:
- 476a41c7df02540667d219861140174bf730385d729220f30f3ebba05d06ff08 1041 libsgx-tdx-logic_1.14.100.3-focal1.dsc
- fbf9b5eae397b826e251b11ab2984445b83ecf778f58b1802dd78abaa97c28c9 50652 libsgx-tdx-logic-dbgsym_1.14.100.3-focal1_amd64.ddeb
- dad9d5b040965293f22d44a9692bbe5db46f27ce593dd653939acd065a200a6f 3188 libsgx-tdx-logic-dev_1.14.100.3-focal1_amd64.deb
- ff6023689f709f06b0b3259166e0ac6fcedce9fa416d93f967d10f1ae9ed6441 13880 libsgx-tdx-logic_1.14.100.3-focal1_amd64.deb
+ 815d3916b7c8c0508acb7ae9f5271419168e891eea346ebefce5ad3c3585e3ad 1041 libsgx-tdx-logic_1.14.100.3-focal1.dsc
+ 0e9bb011d9def05c1104ec899384b03ec9c0605a2c4fe1abe83e57396fa01a5d 50656 libsgx-tdx-logic-dbgsym_1.14.100.3-focal1_amd64.ddeb
+ 60ba2126d8471ddc1e197ed03ce2ec66c3aae053ea5a90a06e0a35501c58cb35 3188 libsgx-tdx-logic-dev_1.14.100.3-focal1_amd64.deb
+ 9a6d71aafa3b6666c2f4f61e7858e953ab0a5cf29f748e317581bd9ccd316072 13880 libsgx-tdx-logic_1.14.100.3-focal1_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Tue, 11 Apr 2023 14:03:03 +0000
+Build-Date: Sat, 30 Dec 2023 09:17:04 +0000
 Build-Tainted-By:
  merged-usr-via-symlinks
  usr-local-has-includes
@@ -174,6 +174,6 @@ Installed-Build-Depends:
 Environment:
  DEB_BUILD_OPTIONS="parallel=8"
  LANG="en_US.UTF-8"
- LD_LIBRARY_PATH="/opt/intel/sgxsdk/sdk_libs:/opt/intel/sgxsdk/sdk_libs:/opt/intel/sgxsdk/sdk_libs:/opt/merge/sgxsdk/sdk_libs"
+ LD_LIBRARY_PATH="/opt/intel/sgxsdk/sdk_libs:/opt/intel/sgxsdk/sdk_libs:/opt/intel/sgxsdk/sdk_libs"
  MAKEFLAGS="w"
- SOURCE_DATE_EPOCH="1681221778"
+ SOURCE_DATE_EPOCH="1703927822"
