@@ -6,12 +6,9 @@ extern "C" {
 #endif
 
 #include <stdint.h>
-#include "sgx_urts.h"
-
-// #define MAX_MAP_ENCL_MR_SIZE  (64*sizeof(uint8_t))
-#define MAX_MAP_ENCL_MR_SIZE  0
 
 /* SGX Begin */
+
 #define SGX_WASM_SEC_NAME ".sgx_wasm"
 #define SGX_WASM_SEC_SIZE 102400          // 100KB
 // must be a multiple of 4096 (page size)
@@ -21,11 +18,6 @@ extern "C" {
 // must be a multiple of 4096 (page size)
 // 4096 is large enough to store the measurement
 
-typedef struct _sgx_wasm_t {
-    uint64_t size;
-    uint8_t wasm_blob[];
-} sgx_wasm_t;
-
 typedef struct _sgx_wasm_vm_mr_t
 {
     uint64_t size;              // number of blocks updated
@@ -33,21 +25,14 @@ typedef struct _sgx_wasm_vm_mr_t
     uint8_t digest[32];         // sha-256 internal state
 } sgx_wasm_vm_mr_t;
 
-uint8_t *sgx_get_wasm_sec_buf_addr();
+uint8_t *sgx_get_wasm_sec_addr();
 
-uint8_t *sgx_get_wasm_vm_mr_sec_buf_addr();
+uint8_t *sgx_get_wasm_ex_sec_addr();
 
-uint8_t *sgx_get_wasm_blob_size_addr();
+uint32_t sgx_get_wasm_size();
 
-uint8_t *sgx_get_map_encl_mr_addr();
+uint8_t *sgx_get_wasm();
 
-uint8_t *sgx_get_wasm_blob_addr();
-
-sgx_status_t sgx_wasm_derive_measurement_from_vm_mr_sec(uint8_t *wasm_sec, uint64_t wasm_sec_size, sgx_measurement_t *mr);
-
-sgx_status_t sgx_wasm_derive_measurement(uint8_t *wasm_sec, uint64_t wasm_sec_size, sgx_wasm_vm_mr_t *vm_mr, sgx_measurement_t *mr);
-
-sgx_status_t sgx_wasm_get_hash(uint8_t *wasm_blob, uint64_t wasm_blob_size, uint8_t *hash);
 /* SGX End */
 
 /* PENGLAI Begin */
@@ -79,9 +64,7 @@ typedef struct _penglai_wasm_vm_mr_t {
     unsigned char buffer[64];   /*!< data block being processed     */
 } penglai_wasm_vm_mr_t;
 
-uint8_t* penglai_get_wasm_vm_mr_sec_buf_addr();
-
-void penglai_wasm_derive_measurement(uint8_t *wasm_blob, uint64_t wasm_blob_size, penglai_wasm_vm_mr_t *wasm_vm_mr, uint8_t *hash, unsigned long nonce);
+uint8_t* penglai_get_wasm_ex_sec_addr();
 
 /* PENGLAI End */
 

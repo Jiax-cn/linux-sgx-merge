@@ -667,8 +667,8 @@ static bool cmdline_parse(unsigned int argc, char *argv[], int *mode, const char
         {"-dumpfile", NULL, PAR_OPTIONAL},
         {"-cssfile", NULL, PAR_OPTIONAL},
         {"-wasmfile", NULL, PAR_REQUIRED},
-        {"-map_encl_mr_in", NULL, PAR_REQUIRED},
-        {"-wasm_vm_mr_in", NULL, PAR_REQUIRED}, 
+        {"-map_encl_mr_in", NULL, PAR_OPTIONAL},
+        {"-wasm_vm_mr_in", NULL, PAR_OPTIONAL}, 
         {"-wasm_vm_mr_out", NULL, PAR_INVALID}};
     param_struct_t params_gen_wasm_vm_mr[] = {
         {"-enclave", NULL, PAR_REQUIRED},
@@ -1521,28 +1521,29 @@ int main(int argc, char* argv[])
             goto clear_return;
         }
 
-        uint8_t *wasm_sec = NULL;
+        uint8_t *wasm_blob = NULL;
         uint32_t wasm_file_size = (uint32_t)get_file_size(path[WASMFILE]);
-        uint32_t wasm_sec_size = ((MAX_MAP_ENCL_MR_SIZE + (uint32_t)sizeof(wasm_file_size) + wasm_file_size - 1) / 4096 + 1) * 4096;
+        // uint32_t wasm_blob_size = (((uint32_t)sizeof(wasm_file_size) + wasm_file_size - 1) / 4096 + 1) * 4096;
+        uint32_t wasm_blob_size = wasm_file_size + (uint32_t)sizeof(wasm_file_size);
         
-        if (wasm_sec_size > SGX_WASM_SEC_SIZE) {
+        if (wasm_blob_size > SGX_WASM_SEC_SIZE) {
             se_trace(SE_TRACE_ERROR, OVERALL_ERROR);
             goto clear_return;
         }
 
-        wasm_sec = (uint8_t *)malloc(wasm_sec_size);
-        if (wasm_sec == NULL) {
+        wasm_blob = (uint8_t *)malloc(wasm_blob_size);
+        if (wasm_blob == NULL) {
             se_trace(SE_TRACE_ERROR, OVERALL_ERROR);
             goto clear_return;
         }
-        memset(wasm_sec, 0, wasm_sec_size);
+        memset(wasm_blob, 0, wasm_blob_size);
 
-        if (read_file_to_buf(path[WASMFILE], wasm_sec+wasm_sec_size-wasm_file_size-sizeof(wasm_file_size), wasm_file_size) == false) {
+        if (read_file_to_buf(path[WASMFILE], wasm_blob, wasm_file_size) == false) {
             se_trace(SE_TRACE_ERROR, READ_FILE_ERROR, path[UNSIGNED]);
-            delete []wasm_sec;
+            delete []wasm_blob;
             goto clear_return;   
         }
-        memcpy(wasm_sec+wasm_sec_size-sizeof(wasm_file_size), &wasm_file_size, sizeof(wasm_file_size));
+        memcpy(wasm_blob+wasm_file_size, &wasm_file_size, sizeof(wasm_file_size));
 
         // Get the offset of wasm section by measure_enclave
         if (measure_enclave(enclave_hash, path[OUTPUT], parameter, option_flag_bits, metadata, &meta_offset, wasm_rva, wasm_offset, wasm_vm_mr_rva, wasm_vm_mr_offset, NULL, true) == false) {
@@ -1550,8 +1551,8 @@ int main(int argc, char* argv[])
             goto clear_return;
         }
 
-        uint32_t wasm_blob_offset = (uint32_t)wasm_offset + ((SGX_WASM_SEC_SIZE - wasm_sec_size) / 4096) * 4096;
-        if (write_data_to_file(path[OUTPUT], std::ios::in | std::ios::binary | std::ios::out, reinterpret_cast<uint8_t*>(wasm_sec), wasm_sec_size, wasm_blob_offset) == false) {
+        uint32_t wasm_blob_offset = (uint32_t)wasm_offset + SGX_WASM_SEC_SIZE - wasm_blob_size;
+        if (write_data_to_file(path[OUTPUT], std::ios::in | std::ios::binary | std::ios::out, reinterpret_cast<uint8_t*>(wasm_blob), wasm_blob_size, wasm_blob_offset) == false) {
             se_trace(SE_TRACE_ERROR, OVERALL_ERROR);
             goto clear_return;
         }
